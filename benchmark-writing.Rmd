@@ -1,0 +1,358 @@
+# Benchmark Writing 
+
+What you'll find in this chapter:  
+
+- [An Introduction to Benchmarks](#an-introduction-to-benchmarks)  
+- [The Writing Process](#the-writing-process) 
+- [Content Guidelines](#content-guidelines)  
+- [Distractors](#distractors)  
+- [Mirrors: How and Why](#mirrors-how-and-why)  
+  - [Key Guidelines for Writing Mirrors](#key-guidelines-for-writing-mirrors)  
+- [Benchmark Spreadsheet for Each Lecture](#benchmark-spreadsheet-for-each-lecture)  
+- [Spelling and Formatting Formalities](#spelling-and-formatting-formalities)  
+- [Recycling Benchmark Questions](#recycling-benchmark-questions)  
+  - [Guidelines for Recycling Questions](#guidelines-for-recycling-questions)  
+- [Editing and Revising Questions](#editing-and-revising-questions)
+  - [Editing Process](#editing-process)  
+  - [Writing Benchmarks](#writing-benchmarks)  
+  - [Editing Benchmarks](#editing-benchmarks)  
+  - [Benchmark Writer Revisions](#benchmark-writer-revisions)  
+- [Benchmark Schedule](#benchmark-schedule)  
+
+
+## An Introduction to Benchmarks  
+In this class, **benchmarks** are what we call exams or quizzes. Each benchmark consists of 8 multiple-choice questions, and students have 10 minutes to complete them. Here's the breakdown:
+
+1. **One of the 8 questions** is a question—or a version of a question—that a student got wrong in the past. This helps reinforce learning and provides an opportunity to correct misunderstandings. (more on this in [Office Hours](#office-hours))
+2. **The remaining 7 questions** are the ones you, our amazing uTAs, will craft with care and precision. These questions are designed to test different topics from the lecture and readings and provide a learning opportunity for the students.
+3. For each lecture and associated readings, we create **7 sets of questions**, each targeting a unique topic from the material. Each set includes **three versions of the same question**, which we call [Mirrors](#mirrors-how-and-why). Mirrors are essential for reducing the likelihood of cheating by providing different versions of the same question concept. Additionally, when students get a question wrong on one benchmark, in the future we will ask them a question from that set, which could be the same question or a mirror. This encourages students to make the effort to understand the material rather than just memorize the correct answer.
+4. All benchmark questions are multiple-choice and require careful crafting of both the correct answer and the "distractors" (i.e., the wrong answers). A well-designed distractor is just as important as the correct answer, as it helps students critically evaluate their knowledge and apply concepts. Well thought out distractors will also reduce the number of students arguing for points back, which they *will* do! When a student contests a question/answer, we call these [Queries](#benchmark-queries).
+
+**Why Do We Do Benchmarks This Way?**
+
+Benchmarks are more than just a way to assess students; they are a **learning tool** designed to:
+
+- Encourage deeper understanding by focusing on scenario-based, real-world questions instead of rote memorization.
+- Encourage higher-order thinking by challenging students to apply and connect ideas.
+- Reinforce material by re-exposing students to concepts they struggled with in the past (i.e. by readministering a question or version of a question the student got wrong in the past). 
+- Reduce cheating by using mirrors.
+
+This approach reflects our belief that testing is an opportunity to **learn through application and synthesis**, not just a way to assign grades. 
+Alright... Let's write some questions!
+
+---
+
+### Example Question Set with Mirrors
+
+Let's look at an example question set about the "Who's in the Expert's Chair" segment from the "New Insights into Life and Learning" lecture. Take a look and while you do ask yourself what makes these good question? What are they all doing? How are they different?
+
+|               | **Question Stem**                                                                                                                                               | **Answer Choices**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mirror 1** | According to the "Who’s in the Expert’s Chair" segment of the "New Insights into Life and Learning" lecture, which of the following is the BEST way to combat belonging uncertainty in an incoming freshman? | 1. Give out loads of free university merch like pencils, koozies, and shirts. <br> 2. Withhold statements from upperclassmen’s experiences because it can stress them out. <br> 3. Tell them impostor syndrome is not a real phenomenon. <br> 4. Skip straight to classes with no orientation resources because students are intelligent enough. <br> 5. **Show them evidence that other students also feel belonging uncertainty and loneliness. (Correct)** |
+| **Mirror 2** | Mary is an instructor who wants to help combat belonging uncertainty for her incoming freshmen. According to the "Who’s in the Expert’s Chair" segment of the "New Insights into Life and Learning" lecture, which of the following is the BEST thing Mary could do? | 1. Isolate them from upperclassmen because seeing them and hearing about their experiences may be stressful. <br> 2. Tell her students they are all naturally smart and are going to do well. <br> 3. Inform her students that intelligence is fixed and they clearly deserve a place in the university. <br> 4. Do nothing because there are no interventions to prevent loneliness and belonging uncertainty in students. <br> 5. **Have upperclassmen present their experiences of finding clubs and organizations that helped them belong. (Correct)** |
+| **Mirror 3** | According to the "Who’s in the Expert’s Chair" segment of the "New Insights into Life and Learning" lecture, Mary is an incoming freshman student struggling with feelings they don’t belong. Which of the following is the BEST way for Jimmy to combat belonging uncertainty? | 1. Belonging uncertainty is not a real phenomenon. It differs for everyone. <br> 2. Leave club and organization fairs and information for much later in the year to not overwhelm them. <br> 3. Tell them they’re just nervous and most freshmen don’t feel that way. <br> 4. Cease teaching about growth vs. fixed mindsets because it has been taught since middle school. <br> 5. **Inform them that struggle is not a sign they lack intelligence, but a sign of challenge and development. (Correct)** |
+
+**Source Details from Question Set Author** *"Interventions for Belonging Uncertainty Growth Interventions Belonging Interventions Give two ideas: first these difficulties are normal, second they can improve “The process through which I become smarter is by speaking up in class” Reading and Writing Experiment… 7,600 freshmen randomly were assigned to a Growth Mindset or Belonging Intervention Belonging intervention… learn that most students are worried about belonging and then you learn about students that came to belong (joined orgs, asked questions, etc.) Growth mindset intervention… your brain can grow and develop; your abilities are not fixed… when you struggle, it’s not a sign that you’re dumb, you’re challenging yourself and building muscle Control group… standard orientation materials RESULTS: The achievement gap between high-socioeconomic and low-socioeconomic students and between races was REDUCED significantly after this (40%). From the Who's in the Expert Chair segment at ~55:50 in the recording"*
+
+Let's go over some of the key features of this question set. 
+
+1. **Applying Knowledge/Real-World Application** 
+    - Notice how each question is asking about a topic from the lecture in a way that encourages the student to *apply* the knowledge about *belonging uncertainty* to a new scenario, as opposed to just memorizing definitions. Each mirror ties the idea of *belonging uncertainty* to a real world situation. In this case the correct answer also reinforces researched-based strategies the students are learning in class that they can even use themselves! This provides much *more of a learning opportunity* than, "Define belonging uncertainty."
+    
+2. **Testing the Same Concept**
+    - Each question (mirror) tests strategies for combating *belonging uncertainty* as discussed in the "Who's in the Expert's Chair" segment of the "New Insights into Life and Learning" lecture.
+
+3. **Consistency in Difficulty**
+    - Each mirror is of similar difficulty. It would not be fair to have a set with questions of varying difficulty. 
+
+4. **Variation in Stems and Contexts**
+    - While the concept remains the same, the stems are varied to frame the concept in different ways.   
+      - Mirror 1: A question about the best strategy in general.
+      - Mirror 2: A scenario with an instructor, Mary, helping freshmen.
+      - Mirror 3: A personal scenario involving an incoming student, Jimmy.
+
+
+## The Writing Process  
+
+For a given lecture:  
+1. Read the source material. [Noba Course Materials](`r params$course_materials_url`)  
+2. Watch the recorded video posted on Canvas.
+3. Pull the [Transcript](`r params$transcripts_url`).  
+4. Coordinate with your co-writers to avoid topic/question overlap, [Benchmark Writing Schedule](`r params$bm_schedule_url`).  
+    - One person writes 3 question sets (3Q), the other will write 4 question sets (4Q). (This will alternate.)  
+    - You will be able to ["recycle" old questions sets](#recycling-benchmark-questions) for some of your sets, more on that later.  
+5. For each question set, write 1 benchmark question and 2 additional mirrors for each topic.  
+6. Submit your completed sets to your editor by the date specified in the [Benchmark Writing Schedule](`r params$bm_schedule_url`).   
+7. Revise your questions based on editor feedback.   
+8. Notify the course coordinator on Slack that your questions are ready for review by the date specified in the writing schedule.  
+9. If needed, revise your questions based on course coordinator feedback then notify course coordinator when your questions are ready for review.
+10. The course coordinator then uploads the questions to Tower (the system we use to administer benchmarks). 
+    
+## Content Guidelines
+
+1. **Choosing Topics**  
+    -  Given all the information the students have to take in, it would be unfair to write a question that is based entirely on one sentence in the lecture or readings. (This is not a memorization or detail test.) Try to focus on key concepts that are presented for ~5–15 minutes of lecture or multiple reading paragraphs. Try to think of the benchmark you are creating as a whole rather than focusing only on the questions you are writing. **What are the most important things you think students should take away from the class (or that you personally took away from the class)?** Does the benchmark assess those things? What is being left out? There is a lot of material in each lecture and readings, and we only have seven questions to test students’ understanding. 
+
+2. **Focus on Applying Concepts**
+    - Use real-world scenarios to test concepts from the lecture that can be used to make predictions or gain understanding in real-world scenarios.
+    - Just because a question includes a scenario does not necessarily mean it is an applied question. If the main thing you are asking students to do is match a scenario to a term/terms from the reading or lecture, you are probably asking a vocabulary question. Rather than testing recall of terms, questions should test if students can use critical thinking to understand the how/why/effects of concepts and how concepts connect to each other. You might try to **think about how you can write questions that challenge the student to use a concept from class to explain or predict a phenomenon in the real world**.
+
+3. **Cumulative Questions**
+    - When possible, concepts from earlier lectures/readings should be incorporated into new questions. This is a good opportunity to create distractors that are wrong in the context of the question without being as easy to eliminate. For example, one of the distractor for a question in the Adolescent Development benchmark refers to the hypothalamus from the Brain and Hormones lecture. The distractor is plausible in that the hypothalamus is indeed involved in the production hormones, however that is not the correct answer in this case.
+
+| **Question Stem** | **Answer Choices**|
+|--------------------------------------|----------------------------------------------------------------------------------|
+| Talia is a fourteen-year-old girl who has recently begun feeling more anxious and depressed. According to the “Adolescence” lecture, what is the BEST explanation for what might have caused this change?|  <br> 1. Her dopamine levels are abnormally high.  <br> **2. Her hypothalamus isn't producing enough hormones.**  <br> 3. Her DHEA levels have decreased.  <br> 4. Her testosterone levels have decreased.  <br> 5. Her estradiol levels have increased. (Correct)|
+
+4. **Balance Difficulty** 
+    - We aim to have one or two fairly straightforward questions and one or two more difficult ones. Always remember, your questions will always seem easier to you than to students because you know the right answer! *Remember difficulty should not vary across the mirrors!*
+    
+5. **Do Not Rely on Outside Information and Avoid Culturally Specific Examples**
+    - Do not write questions that require culturally specific or uncommon knowledge to understand the question and answer. Many of our students did not grow up in Texas or the United States, so may be less familiar with characters from TV or consumer products that are common here.
+        - In the example below from the Memory lecture, the student would need to know that Sickle Cell Anemia is an inherited, genetic disorder to answer this question which is beyond the scope of this class and lecture.
+    - Avoid cultural specific examples like, "Jasmine is celebrating her **quinceanera** in two weeks. According to the "Lecture", Jasmine is most likely in which developmental stage?"
+    - Remember, you likely have more knowledge than most of the first year freshmen! Things you consider common knowledge might not be. ;) 
+        
+| **Question Stem** | **Answer Choices**|
+|--------------------------------------|----------------------------------------------------------------------------------|
+| Lily's father is suffering from **Sickle Cell Anemia**. She is also taking a biology class and has an exam coming up. According to the "Memory" Lecture, which of the following concepts is Lily MOST LIKELY to remember? |  <br> 1. Symbiosis  <br> 2. Photosynthesis  <br> 3. Biodiversity  <br> 4. The Food Chain  <br> 5. Genetic Mutations (Correct)|
+
+6. **General Rules**
+    - Don't make the stems or answers choices *too* long. Remember, the students only have 10 minutes!
+    - Avoid sesquipedalian, esoteric, overly complex, or redundant words (this bullet point is a good example of what **not** to do).
+    - Questions should ask which of the following answers is correct. Avoid questions that ask students to identify which is not correct.
+    - The question may reappear at a later date so make sure there are no questions that depend on the current date/time.
+    - Be sure it's clear which lecture the answer refers to by saying "According to the lecture/reading..." This reduces chances of students referring to other material.
+
+## Distractors  
+
+Distractors are what we call incorrect answers. Writing good distractors is an art form. Most of what makes a question good or difficult is in the distractors because they force students to determine why the distractors are wrong. You should focus just as much time (if not more!) on writing good distractors as you would the correct answer. 
+
+### Key Guidelines for Distractors
+
+1. **Distractors are Incorrect for a Reason**
+    - Make sure distractors are wrong for a specific reason based on what students have learned in class. More than making it hard for students to argue for the distractors, we want students to pick the correct answer because they see which possibilities are incorrect because of what they learned in this class. When you have a certain correct answer in mind it's easy not to notice that some of the distractors could also be correct if you think about the question a different way.
+    - Ask yourself, 
+        - **"Could someone argue this particular answer?"** 
+        - **"Could someone interpret this distractor in such a way that it could be a plausible correct answer?"** 
+        - **"Is there any possible way that distractor could be correct?"**  
+    - You will have to address any [Queries](#benchmark-queries) for a question you wrote!
+
+2. **Exclusion Doesn't Mean Wrong**  
+    - Do not write distractors that are only "wrong" because they weren't mentioned in class: this encourages students to ignore other potential factors in real life scenarios just because they happened not to learn about them here. And they could easily be true and you just don't know! This is a recipe for queries...
+        - One way around this is to ask *"According to X person/theory, what is the BEST…"* This way, you could theoretically write answer choices that weren't mentioned in class, as long as they can't be argued to fit well with the theory/model in question. For example: "An adherent of Freud's theory of the mind would MOST likely explain this by saying…"
+
+3. **"Not enough information..." - "None of the above" - "All of the above"**
+    - Do not use "It is difficult to determine…" or "There's not enough information…" distractors. With the questions we write, it could certainly be the case there is not enough info. Life is complicated and even with the information we present in class, there may not be enough information to undisputedly "determine" anything in a hypothetical situation. 
+    -  Avoid "None of the above" or "All of the above" answer choices. 
+    
+4. **Avoid Extremes and Nevers**
+    - Avoid extremes (always, never, all, none, etc.) in distractors... This typically makes them easy to guess that they are wrong because things are rarely "always" or "never". Having one every now and then is OK, but don't consistently use extremes in all question.
+    
+5. **Consistency in Answer Choices**
+    - Make sure all your answer choices "look" the same. For example, if you write your answer choices with a period at the end, make sure all answer choices are in a similar format. 
+    - Distractors should be of similar lengths and depth. Don't have some distractors be super wordy or one word answer amongst a bunch of one word or super wordy distractors, respectively. 
+    
+| **Question Stem** | **Answer Choices**|
+|--------------------------------------|----------------------------------------------------------------------------------|
+| What is your favorite color? |  <br> 1. Red  <br> 2. Green   <br> **3. the color perceived when all wavelengths of visible light are reflected equally by an object**  <br> 4. Blue  <br> 5. Black |
+
+6. **Make Sure Distractors Fit the Question**  
+    - In the example below, while distractor #3 is a well written distractor, it doesn't fit well with the rest of the answer choices or to the question, so it seems like an obvious wrong answer. 
+
+| **Question Stem** | **Answer Choices**|
+|--------------------------------------|----------------------------------------------------------------------------------|
+| According to the evolutionary model of adolescence in the 'Adolescence' lecture and 'Who's in the Expert Chair', which of these is MOST LIKELY the purpose of behavioral risks during adolescence? |  <br> 1. Engaging in risky behaviors during adolescence is primarily to ensure the adolescent remains dependent on their caregivers  <br> 2. Adolescents engage in risky behaviors to reduce their social connections and isolate themselves from peer groups  <br> **3. Adolescent organisms' cognitive control centers are fully developed before their dopaminergic systems**  <br> 4. The purpose of behavioral risks during adolescence is to maintain a low social profile and avoid gaining attention from peers  <br> 5. Behavioral risks are opportunities for an organism to explore new things and become prepared to become self sufficient  (Correct)|
+
+7. **Try Not to "Flip" Answer Choices**  
+    - Avoid making a distractor that is the negation of the correct answer. By process of elimination, the other answers are typically incorrect. 
+    - In the example below, there are two answer choices that stick out because it is the same answer with the names flipped. Though not always true, many times when you see these in answer choices, one of the two choices is correct... 
+    
+ **Question Stem** | **Answer Choices**|
+|--------------------------------------|----------------------------------------------------------------------------------|
+| Tony grew up with high-quality education while Isabella did not. According to the "Who's in the Expert's Chair" segment of the "Social Class" lecture, what is MOST likely the effect of this on their cognitive abilities? |  <br> 1. Tony and Isabella will develop the same cognitively	  <br> **2. Isabella will have a higher rate of cognitive development than Tony**  <br> 3. Tony will develop cognitive abilities later than Isabella  <br> 4. Isabella will develop cognitive abilities sooner than Tony  <br> 5. **Tony will have a higher rate of cognitive development than Isabella** (Correct)|
+
+## Mirrors: How and Why
+
+Mirrors are **different versions of the same question**, designed to cover the same major topic (e.g., postsynaptic potentials). One of the primary purposes of mirrors is to **prevent cheating** by creating variations that make it difficult for students to collaborate or memorize answers. The other primary purpose of mirrors is to encourage to put in the effort to gain a deeper understanding of the material. When a student gets a question wrong on the benchmark, ex. something about the big five, on future benchmarks they will be given one question they missed which may be the original question OR a mirror. This encourages students to go beyond just memorizing the correct answer for questions they get wrong. By following the guidelines below, you'll craft mirrors that are effective, fair, and reinforce student learning while minimizing opportunities for academic dishonesty.
+
+### Key Guidelines for Writing Mirrors
+
+1. **Ensure Consistent Difficulty Across Mirrors**  
+   - All mirrors for a question should be of the same difficulty level to ensure fairness. We wouldn't want one student to get the easy version and another to get the hard version.  
+
+2. **Names in Question Sets Should Vary**  
+   - Names should not be repeated within question stems or across mirrors. Be creative with the names you pick but please try to use a variety of names from different cultures and ethnic groups.   
+
+3. **Avoid Identical Stems**  
+   - Do not reuse the exact same question stem across mirrors unless:  
+     - You are **changing all names in the stem**, AND 
+     - You are writing **completely new distractors** (not just changing names in the distractors).  
+
+4. **Vary Correct Answers**  
+   - If possible, consider using correct answers from one mirror as distractors in other mirrors. This adds variation and makes mirrors more effective at preventing cheating. (Students may see the same answer choices and incorrectly assume it is the same question as their co-conspirator.)  
+
+Below is a set for the *Psychology of Money and Social Class* lecture. Notice how the answer choices are essentially the same but all the names are changed and the correct answer varies based on the question stem. 
+   
+|        | **Question Stem**                                                                                                                                                                        | **Answer Choices**                                                                                                                                                                                                                 |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mirror 1**        | A researcher gives four people $30 each and tells them that they can either keep it for themselves or donate it. According to Paul Piff's TED Talk, who is MOST likely to donate it? | 1. Michael, who makes $51,000 annually. <br> 2. Leo, who makes $79,000 annually. <br> 3. Donna, who makes $260,000 annually. <br> 4. All of them are equally likely to donate the money. <br> **5. Elliot, who makes $22,000 annually. (Correct)** |
+| **Mirror 2**        | A researcher gives four people $30 each and tells them that they can either keep it for themselves or donate it. According to Paul Piff's TED Talk, who is MOST likely to keep it for themselves? | 1. Parker, who makes $22,000 annually. <br> 2. Tracy, who makes $51,000 annually. <br> 3. Marcus, who makes $79,000 annually. <br> 4. All of them are equally likely to donate the money. <br> **5. Brianna, who makes $260,000 annually. (Correct)** |
+| **Mirror 3**        | A researcher places four people in their own rooms, each with a bowl of chocolates. They are told that the chocolate is not for them, and it is for another participant arriving later. According to Paul Piff's TED Talk, who in the group will consume the MOST chocolate despite being told it's not for them? | 1. Sebastian, who makes $22,000 annually. <br> 2. Mavis, who makes $51,000 annually. <br> 3. Alex, who makes $79,000 annually. <br> 4. All of them are equally likely to consume the chocolate. <br> **5. Stefan, who makes $260,000 annually. (Correct)** |
+   
+---
+
+## Benchmark Spreadsheet for Each Lecture  
+
+For each lecture, there will be a Google Sheet to add your new questions and reference old ones. Here is a link to the [folder](`r params$bm_writing_folder_url`) with all the benchmark spreadsheets by topic.  
+
+Below is a breakdown of each column in the spreadsheet.  
+
+- **RAZ's Comments**
+  - This is where the course coordinator (currently `r params$course_coordinator`) will leave editing comments. When you respond to a comment in this column, please be sure to write your initials followed by a colon. If no edits are needed, typically you'll see a "good job!" or something similar. When an edit is needed, typically that comment will be bolded to bring your attention to it. 😉 If you respond to an edit here, please briefly explain what was changed/altered in the question.
+  
+- **Editing Comments**  
+  - This is where question editors write their comments. Be sure to write your initials with a colon followed by your comment. When responding to editor comments, please be sure to use your initials, too. This way we can keep track of:
+    1. The editor comments.
+    2. How the comment was addressed.
+    3. If there is a follow-up question for the course coordinator.
+
+- **Tower ID**:  
+  - This is the tag we use in Tower when we create a benchmark. We will set it up in such a way that it will pull one question from the "bm02_belonging_uncertainty" set. Each question set should have a unique Tower ID which includes "bm", the benchmark number, and the topic. These **must** be the same for all mirrors. For example "bm01_makeups". 
+    - `bm02_` = benchmark number 2
+    - `belonging_uncertainty` = the topic the questions are about
+
+- **Question Topic**:  
+  - Specify the key concept being tested. This is similar to the Tower ID but may have a bit more detail. 
+    - `Belonging Uncertainty`
+
+- **Stem**:
+  - This is the question itself.
+
+- **D1-D4**:
+  - These are the four distractors. The order is *always* the same with the four distractors first and the correct answer last. 
+
+- **Correct Answer**:
+  - This is the correct answer. This *always* comes after the four distractors. 
+
+- **R/L/Int: from Reading, Lecture, or Integrative**:  
+  - Your questions will come from information discussed in either the readings, lecture, or both. Use one letter to mark whether the question is based on:  
+    - `R` = Reading 
+    - `L` = Lecture  
+    - `I` = Integrative 
+
+- **Link to Material** 
+  - This is is where you link to the readings or to the time in the lecture recording where a student could get more information about the question. 
+    - If you are linking to a reading, you can either use the link to the Canvas readings (but make sure it is the correct link, sometimes people use an old Canvas link from a previous semester which will not work) OR you can use the URL to the original content (e.g., NOBA link, <https://nobaproject.com/modules/the-nature-nurture-question>). You can find them on Canvas or on the list of all the readings in the [Course Materials: Readings section](#course-materials).
+    - If you are linking to a moment in the lecture, use a time stamp but please be sure to format it as follows: 
+      - "Lecture hh:mm:ss" (You do not have to get down to the seconds.)
+      - If you don't write "Lecture," sometimes Sheets tries to convert it to some weird date variable which messes things up. 
+
+- **Source Details**:  
+  - This is quotes or information from lectures or readings that are most relevant to choosing the correct answer. This information is also very useful for editing and when responding to queries.  
+    - For reading-based questions: Copy a relevant excerpt that explains the correct answer.
+    - For lecture-based questions: Include the time stamp and a brief synopsis or relevant transcript text.  
+
+- **Author**:  
+  - Update this field with your name, even if the question is recycled.
+
+- **New/Recycled**:  
+  - If the question is new, write "New".  
+  - If recycled, note the semester and year (e.g., "Fall 2019") and describe any changes in the "Changes" column.
+  - Always use the most recent version of a recycled question if it has been adapted in later semesters.
+
+- **Changes (if old)**:
+  - When recycling a question, note what you changed/updated. For example, "Changed stem (scenarios, names) and tweaked answer choices".
+
+![](/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/benchmark_spreadsheet_1.png) 
+![](/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/benchmark_spreadsheet_2.png)
+
+Lastly, at the very bottom of a spreadsheet, there are multiple tabs for each semester and year. You can use these old tabs to review and/or to recycle questions. It is helpful to look over some of the old questions and associated comments to help you write new and recycled content. 
+
+![](/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/benchmark_spreadsheet_3.png)
+
+---
+
+## Spelling and Formatting Formalities  
+
+All the question writing and editing we do happens in Google Sheets, where we can freely use formatting tools like bold text, colors, and other visual aids to make the process easier. However, once the questions are finalized, the course coordinator will need to adapt that fun and visually enhanced sheet to match the strict format required for Tower. This step is critical, as Tower (the system we upload all of our questions to) has strict formatting rules that must be followed to ensure the questions work correctly in the system. Taking the time to double-check these details ensures a smooth upload process and prevents formatting errors from causing delays or issues. ;)
+
+- **Spell Check!**: Please be sure to use spell check before you send your questions to your editors. 
+- **Avoid Math Symbols at the Start**: Cells cannot begin with math symbols (`+`, `=`), as they are autoformatted into equations and may produce unintended results.
+- **Avoid Numeric Ratios**: Entire cells cannot be a numeric ratio (e.g., `50:50`), as they are automatically converted to times (e.g., `1:60` becomes `2:00:00.00`). This is also important when you write the time stamps for your "Link to Readings" section. If you input 15:25 (fifteen minutes and 25 seconds into lecture), this can be converted to an annoying date time. Use the following formatting for timestamps: **Lecture 15:25**. Typing "Lecture" in there is super important! 
+- **Capitalize Key Words**: Words like "According to the lecture [topic], which of the following is the BEST explanation for x,y,z?"
+
+---
+
+## Recycling Benchmark Questions
+
+Based on your benchmark writing assignment for a given week, you'll be creating 3 or 4 question sets. If you are assigned to write **3 question sets**, you can **recycle 1 set**. If you are assigned to write **4 question sets**, you can **recycle 2 set**. Recycling benchmark questions can save time and effort while still maintaining the quality of our benchmarks. Below are the rules and best practices for recycling benchmark questions from previous semesters.
+
+## Guidelines for Recycling Questions
+
+- **Recycling Rules**:
+  - Every benchmark spreadsheet has multiple tabs at the bottom with questions from past semesters. You can refer to these for some potential sets. But **do not recycle questions from the most recent, previous semester**. Sometimes we have students from the prior semester retaking or completing the class in the current semester. 
+  - When recycling questions, **always update the names** used in the scenarios. Be extra careful about changing all instances of the name. If you change the gender in a scenario, be sure the **pronouns are consistent across the stem and answer choices**. 
+  - Modify some pieces of the **stem or scenario** and update distractors as needed. The goal is to avoid exact copies of old questions since these may already be available online.
+
+- **Avoid Recycling Content That Might Change**:
+  - In the **Fall semesters**, the Thursday lecture are recorded live. To avoid recycling content that may change, it is better to wait for that recording before you start writing questions on segments that might have changed from the prior semester, like *Psychology in the News*.  
+     - So you are not writing too much over the weekend, it is a good idea to write some question sets on the readings, which you can send up the editing chain as they are ready. Once the recording is released, you can base your other sets on the lecture.  
+  - In the **Spring semesters**, all the lectures are pre-recorded and available to you, so you don't have to worry about timestamps or segments changing. (You could even get ahead with your benchmark writing in the Spring semesters!)
+
+- **Consult the Source Details**:
+  - If you're recycling a question tied to a lecture or reading, double-check the **Source Details** column in the benchmark spreadsheet. Confirm that the referenced material is still accurate and up-to-date. Transcript information, time stamps, and occasionally NOBA readings can and do change. 
+  
+- **Make Note About Changes**: 
+  - Lastly, on the benchmark spreadsheet for that lecture, please be sure to note in the "Changes (if old)" column, 1) the semester the question was pulled from, and 2) the changes you make to the question.
+
+---
+
+## Editing and Revising Questions
+
+For any benchmark, we have two writers and two editors. One writer creates 3 sets (2 new and up to 1 recycled) and the other 4 sets (2 new and up to 2 recycled). One editor is assigned for each writer and their corresponding sets. The editor reviews question sets for things like grammar, clarity, and consistency. Editors review questions and send feedback to writers. The writers will then revise and send to the course coordinator for final review. 
+
+### Editing Process
+
+#### Writing Benchmarks  
+
+- Writers should complete their benchmarks and edits by the deadlines noted on the [BM Schedule](`r params$bm_schedule_url`).  
+- Once finished, notify the corresponding editor via Slack.  
+
+#### Editing Benchmarks in General  
+
+- Editors should review their assigned questions and note feedback in the **“Editing Comments”** section of the spreadsheet.  
+- Use your initials when commenting, for example "RAZ: looks great!" 
+- Large changes should be noted for writers to address.  
+    - Be sure to check for naming and pronoun consistency!  
+    - Make sure the formatting of the answer choices are the same! (ex. All have or do not have periods.)
+- Small changes (e.g., typos, rewording) should be made **directly by the editor**.  
+- Complete your edits and notify writers via Slack by the deadline noted on the [BM Schedule](`r params$bm_schedule_url`).
+
+#### Editing Benchmarks for Content
+
+- When you are editing a question set, it is super important to ask yourself:  
+    - "Could a freshman student who only read the readings and watched the lecture be able to figure out the answer?"  
+    - "Could any of the answers be interpreted in such a way that it may be correct?" (We do not want that kind of ambiguity!)
+
+- Check to make sure the source material and links to readings or lecture are correct.
+
+- Use your initials when commenting, for example: `"RAZ: looks great!"`
+
+- Large changes should be noted for writers to address.  
+    - Be sure to check for naming and pronoun consistency!  
+    - Make sure the formatting of the answer choices is the same (e.g., all have or do not have periods).
+
+- Small changes (e.g., typos, rewording) should be made **directly by the editor**.
+
+- Complete your edits and notify writers via Slack by the deadline noted on the [BM Schedule](`r params$bm_schedule_url`).
+
+#### Benchmark Writer Revisions   
+
+- **Incorporate your editor's feedback.**  
+  - If for some reason you *do not agree* or do not understand a particular edit, leave a comment with your initials and your reasoning in the **“Editing Comments”** section after the editor's comment. The Course Coordinator will review and instruct the benchmark writer accordingly.  
+  - Notify the Course Coordinator that your benchmarks are ready for review via Slack by the deadline.  
+  - Incorporate any revisions from the Course Coordinator as necessary and let them know the questions are ready for review again via Slack. They will let you know when the questions are finalized.  
+
+
+
