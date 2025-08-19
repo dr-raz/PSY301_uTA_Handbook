@@ -1,0 +1,3508 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{3cm}
+
+{\Huge \textbf{PSY301 uTA Handbook}}\\[1cm]
+{\Large Dr-RAZ: Rebecca A. Zarate}\\[2cm]
+
+\vfill
+
+% Add an image (adjust width as needed)
+\includegraphics[width=0.5\textwidth]{_images/psy301_handbook.png}
+
+\vfill
+
+\textbf{Last updated:} \the\year \\[1cm]
+
+\end{center}
+\end{titlepage}
+
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\hypertarget{psy301-uta-handbook}{%
+\section{PSY301 uTA Handbook}\label{psy301-uta-handbook}}
+
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/psy301_handbook.png}
+
+\hypertarget{welcome}{%
+\subsection*{Welcome!}\label{welcome}}
+\addcontentsline{toc}{subsection}{Welcome!}
+
+Welcome to the PSY301 TA Team---or welcome back! We're absolutely thrilled to have you on board. This guide is here to support you every step of the way as an undergraduate Teaching Assistant (uTA). Inside, you'll find everything you need to succeed in your role, from understanding your responsibilities to mastering essential tasks like writing benchmarks, handling student queries, and managing emails. Whether you're helping students tackle tough questions during office hours, navigating the benchmark writing, or stepping up to manage other essential TA duties, this handbook is your ultimate guide. It's designed to not only help you excel in your role but also to support your growth as a leader and mentor, making your experience as a TA both impactful and rewarding. Let's make this semester amazing---together!
+
+This handbook covers:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{onboarding}{Onboarding}
+\item
+  \protect\hyperlink{benchmark-writing}{Benchmark Writing}
+\item
+  \protect\hyperlink{benchmark-queries}{Benchmark Queries}
+\item
+  \protect\hyperlink{emails}{Emails}
+\item
+  \protect\hyperlink{office-hours}{Office Hours}
+\item
+  \protect\hyperlink{reflection-portfolios}{Reflection Portfolios}
+\item
+  \protect\hyperlink{other-possible-ta-duties}{Other Possible TA Duties}
+\item
+  \protect\hyperlink{course-materials}{Course Materials}
+\end{itemize}
+
+Created and maintained by Dr-RAZ: Rebecca A. Zarate. Last updated 2025-08-19
+
+\hypertarget{onboarding}{%
+\section{Onboarding}\label{onboarding}}
+
+As a TA, you'll be onboarded with everything you need to support the course effectively. Here's what you can expect during the setup process.
+
+What you'll find in this chapter:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{access}{Access}
+\item
+  \protect\hyperlink{scheduling-and-locations}{Scheduling and Locations}
+\item
+  \protect\hyperlink{administrative-setup}{Administrative Setup}
+\item
+  \protect\hyperlink{semester-meet-ups}{Semester Meet Ups}
+\item
+  \protect\hyperlink{office-hours-and-ta-area}{Office Hours and TA Area}
+\item
+  \protect\hyperlink{some-people-and-their-roles}{Some People and Their Roles}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{course-coordinator}{Course Coordinator}
+  \item
+    \protect\hyperlink{lead-ta-responsibilities}{Lead TA Responsibilities}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{access}{%
+\subsubsection{Access}\label{access}}
+
+\begin{itemize}
+\item
+  \textbf{Slack Access}:\\
+  Please create a Slack account. Once you do, please let RAZ know your user name. You'll then be added to our class Slack work space, which is the primary way we communicate as a team. Once you've joined, you'll be added to the relevant channels to stay up-to-date with announcements and collaborate with the team.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Slack Channels:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      all\_tas - where general messages are sent for the entire TA team
+    \item
+      bmwriting - where you let RAZ know your questions are ready for review
+    \item
+      bmqueries - where you can get some help with \protect\hyperlink{benchmark-queries}{BM Queries}
+    \item
+      emails\_TA - where you can get some help with \protect\hyperlink{emails}{Student Emails}
+    \item
+      class-time - where we communicate with LAITS and \protect\hyperlink{dashboard-runner}{Dashboard Runners} (only those who need access to this have access)
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Canvas Access}:\\
+  We'll use your UTEID to give you access to the class Canvas page as a TA.
+\item
+  \textbf{PSY 301 Team Email Access}:\\
+  Each TA will take turns monitoring the class email account. On your assigned day, you'll also check the query form for any student submissions. Instructors on how to set up your email with the account can be found \protect\hyperlink{setting-up-your-account}{here}.
+\item
+  \textbf{Zoom}:
+  Setup your Zoom on the Canvas page using your zoom email to hold online office hours.
+\item
+  \textbf{PSY 301 Google Drive Access}:
+  We will share a GoogleDrive (ex. PSY301 Semester Year) folder with you each semester. This is where we keep files that we share amongst the group like the Benchmark Spreadsheets, for example. Here is the link to the current \href{https://drive.google.com/drive/u/2/folders/1YuG-BCR5GXmraqYFyV0Oolhz4i2TopO8}{PSY301 Google Drive}
+\end{itemize}
+
+\hypertarget{scheduling-and-locations}{%
+\subsubsection{Scheduling and Locations}\label{scheduling-and-locations}}
+
+\begin{itemize}
+\item
+  \textbf{Office Hour Scheduling}:\\
+  Some of you will be asked to choose two hours each week for your office hours. We aim to provide availability across the weekdays, but weekend office hours are also an option if you prefer. You can do one two hour session or two one hour sessions.
+\item
+  \textbf{Email and Query Form Monitor Scheduling}
+  Some of you will be asked for your preferred day to monitor the \protect\hyperlink{emails}{PSY 301 Team Email}.
+\item
+  \textbf{Location of Office Hours}:\\
+  Your office hours can be set up as recurring Zoom meetings, linked directly in the Canvas Zoom tab for students to join, or you can choose to host your office hours in person. More information on that below.
+  -In the Fall (only), if you're assigned to the 12:30 class, we'll include a shared Zoom link with the 3:30 class to simplify access for students.
+\item
+  \textbf{Canvas Updates}:\\
+  The weekly office hour schedule, including your availability, will be posted in the \textbf{``Contacts \& Office Hours''} tab on Canvas for students to view. If you ever need to modify your office hours, please create an Announcement on Canvas to inform the students you have to cancel or reschedule. If possible, you should try to make up missed office hours.
+\end{itemize}
+
+\hypertarget{administrative-setup}{%
+\subsubsection{Administrative Setup}\label{administrative-setup}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Employment Forms}:\\
+  If you're a new TA, you'll work with Graduate Program Administrator Kimberly Terry, \href{mailto:kterry@austin.utexas.edu}{\nolinkurl{kterry@austin.utexas.edu}}, to complete any required employment forms. You'll also fill out a TA duties form, which outlines your responsibilities for the semester. You'll then send this form via email to the Course Coordinator, RAZ, \href{mailto:dr-raz@utexas.edu}{\nolinkurl{dr-raz@utexas.edu}}. RAZ will return it to you signed for you to submit.
+\end{itemize}
+
+\hypertarget{semester-meetings-and-meet-ups}{%
+\subsubsection{Semester Meetings and Meet Ups}\label{semester-meetings-and-meet-ups}}
+
+\begin{itemize}
+\item
+  \textbf{Kick Off Work Meeting}:\\
+  Before the semester begins, we will have a team meeting. This is a meeting the lead TA coordinates in the week before classes begin. All course team members attend, and so do Sam, Paige, and RAZ. This meeting is to introduce new TAs to the class, review responsibilities, and let returning TAs know about any new changes for the upcoming semester.
+\item
+  \textbf{End-of-Semester Wrap-Up Lunch}:\\
+  At the end of the semester, we'll get together for lunch and hang out! Chatting about how the semester went, sharing stories, and just having a good time! In the last few weeks of the semester, you will receive an email from us requesting your availability and lunch order.
+\end{itemize}
+
+\hypertarget{office-hours-and-ta-area}{%
+\subsubsection{Office Hours and TA Area}\label{office-hours-and-ta-area}}
+
+As a TA, you have the option to hold your office hours or work in Dr.~Harden's lab space located in the Children's Research Center in the SEA building at the corner of Dean Keeton and Speedway at the University of Texas. The entrance to the Children's Research Center is on the west side of Speedway, just north of Dean Keeton. This is a great opportunity to create a comfortable and accessible environment for students to drop by for support.
+
+\begin{figure}
+\centering
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/childrens_research_center.png}
+\caption{Children's Research Center}
+\end{figure}
+
+We will send you instructions on how to access the lab space via email. (Do not share access details!)
+
+In addition to using the space for office hours or working, we encourage you to connect with your fellow TAs here! Whether you're working together, brainstorming ideas, or simply taking a break and hanging out, this space is available to support collaboration and community among the TA team. There will be some drinks, snacks, and access to a coffee maker available to you. Please swing by and enjoy! (We only ask you make sure to clean up after yourself, like cleaning the coffee maker if you use it.)
+
+\hypertarget{some-people-and-their-roles}{%
+\subsection{Some People and Their Roles}\label{some-people-and-their-roles}}
+
+\hypertarget{course-coordinator}{%
+\subsubsection{Course Coordinator}\label{course-coordinator}}
+
+The \textbf{Course Coordinator}, RAZ, is responsible for the following tasks:
+
+\begin{itemize}
+\tightlist
+\item
+  Running Live Lectures in the Fall:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Use the dashboard and gatekeeper to activate lectures, benchmarks, chats, activities, and RAS sessions.
+  \item
+    In the Spring, trained TAs run the dashboard.
+  \end{itemize}
+\item
+  Supporting Undergraduate TAs:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Provide encouragement, share necessary information, and act as a point of contact for assistance.
+  \end{itemize}
+\item
+  Handling Escalated Comments/Issues:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Address any comments or issues that the Lead TA escalates for resolution.
+  \end{itemize}
+\item
+  Final Approval for Benchmark Questions:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Review and provide final approval for benchmark questions after the editing process.
+  \end{itemize}
+\item
+  Accommodations:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Serve as main point of contact for students with accommodations and accommodates them (ex. share student note taker notes, add extra time to benchmarks)
+  \end{itemize}
+\item
+  ``Meta Mind'':
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Know all the inner workings of the class and make sure the machine is well oiled. ;)
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{lead-ta-responsibilities}{%
+\subsubsection{Lead TA Responsibilities}\label{lead-ta-responsibilities}}
+
+The \textbf{Lead TA}, Tia Kelley, is tasked with the following responsibilities:
+
+\begin{itemize}
+\tightlist
+\item
+  Grade Management:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Release grades for Benchmarks and RAS questions.
+  \item
+    Assign writing assignments and reflection portfolio review to TAs
+  \end{itemize}
+\item
+  Undergraduate TA Support:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Provide guidance and monitor undergraduate TA duties and responsibilities throughout the semester.
+  \end{itemize}
+\item
+  Respond to escalated student emails from undergraduate TAs.
+\item
+  Canvas Maintenance:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ensure the course Canvas page is up-to-date.
+  \end{itemize}
+\item
+  Question Creation:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Write RAS questions for the course in Spring.
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{ta-responsibilities}{%
+\subsubsection{TA Responsibilities}\label{ta-responsibilities}}
+
+\begin{itemize}
+\item
+  \textbf{TA and Canvas Management}\\
+  RAZ and Tia Kelley
+\item
+  \textbf{Benchmark Writing}\\
+  Katarina, Emma, Oghosa, Natalie, Taylor, Avah, Rishi, Anshu
+\item
+  \textbf{Benchmark Editing}\\
+  Crystal, Cynthia
+\item
+  \textbf{Benchmark Grading}\\
+  Tia Kelley
+\item
+  \textbf{Dashboard Runners}\\
+  RAZ, Tia Kelley,RAZ, Crystal, Tia as needed
+\item
+  \textbf{Accommodations}\\
+  RAZ and Tia Kelley
+\item
+  \textbf{Email Management}\\
+  Katarina, Emma, Oghosa, Natalie, Taylor, Avah, Rishi, Anshu
+\item
+  \textbf{Office Hours (2 hours per week)}\\
+  Katarina, Emma, Oghosa, Natalie, Taylor, Avah, Rishi, Anshu
+\item
+  \textbf{Hype Master}\\
+  Katarina
+\item
+  \textbf{Studio Recruiter}\\
+  Avah
+\item
+  \textbf{Reflection Portfolio Grading}\\
+  All TAs
+\end{itemize}
+
+\hypertarget{benchmark-writing}{%
+\section{Benchmark Writing}\label{benchmark-writing}}
+
+What you'll find in this chapter:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{an-introduction-to-benchmarks}{An Introduction to Benchmarks}\\
+\item
+  \protect\hyperlink{the-writing-process}{The Writing Process}
+\item
+  \protect\hyperlink{content-guidelines}{Content Guidelines}\\
+\item
+  \protect\hyperlink{distractors}{Distractors}\\
+\item
+  \protect\hyperlink{mirrors-how-and-why}{Mirrors: How and Why}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{key-guidelines-for-writing-mirrors}{Key Guidelines for Writing Mirrors}\\
+  \end{itemize}
+\item
+  \protect\hyperlink{benchmark-spreadsheet-for-each-lecture}{Benchmark Spreadsheet for Each Lecture}\\
+\item
+  \protect\hyperlink{spelling-and-formatting-formalities}{Spelling and Formatting Formalities}\\
+\item
+  \protect\hyperlink{recycling-benchmark-questions}{Recycling Benchmark Questions}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{guidelines-for-recycling-questions}{Guidelines for Recycling Questions}\\
+  \end{itemize}
+\item
+  \protect\hyperlink{editing-and-revising-questions}{Editing and Revising Questions}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{editing-process}{Editing Process}\\
+  \item
+    \protect\hyperlink{writing-benchmarks}{Writing Benchmarks}\\
+  \item
+    \protect\hyperlink{editing-benchmarks}{Editing Benchmarks}\\
+  \item
+    \protect\hyperlink{benchmark-writer-revisions}{Benchmark Writer Revisions}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{benchmark-writing-schdule}{%
+\subsubsection{Benchmark Writing Schdule}\label{benchmark-writing-schdule}}
+
+\href{https://docs.google.com/spreadsheets/d/1hingHbcfSHpUr1Km8NF4nnrDgw5ivD6b/edit?gid=602524248\#gid=602524248}{Benchmark Writing Schedule}
+
+\hypertarget{benchmark-writing-folder}{%
+\subsubsection{Benchmark Writing Folder}\label{benchmark-writing-folder}}
+
+\href{https://drive.google.com/drive/folders/1TBohqmI-Khge4n4NfeWAjVi5rFwVx2D6?usp=drive_link}{Benchmark Writing Folder}
+
+\hypertarget{an-introduction-to-benchmarks}{%
+\subsection{An Introduction to Benchmarks}\label{an-introduction-to-benchmarks}}
+
+In this class, \textbf{benchmarks} are what we call exams or quizzes. Each benchmark consists of 8 multiple-choice questions, and students have 10 minutes to complete them. Here's the breakdown:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{One of the 8 questions} is a question---or a version of a question---that a student got wrong in the past. This helps reinforce learning and provides an opportunity to correct misunderstandings. (more on this in \protect\hyperlink{office-hours}{Office Hours})
+\item
+  \textbf{The remaining 7 questions} are the ones you, our amazing uTAs, will craft with care and precision. These questions are designed to test different topics from the lecture and readings and provide a learning opportunity for the students.
+\item
+  For each lecture and associated readings, we create \textbf{7 sets of questions}, each targeting a unique topic from the material. Each set includes \textbf{three versions of the same question}, which we call \protect\hyperlink{mirrors-how-and-why}{Mirrors}. Mirrors are essential for reducing the likelihood of cheating by providing different versions of the same question concept. Additionally, when students get a question wrong on one benchmark, in the future we will ask them a question from that set, which could be the same question or a mirror. This encourages students to make the effort to understand the material rather than just memorize the correct answer.
+\item
+  All benchmark questions are multiple-choice and require careful crafting of both the correct answer and the ``distractors'' (i.e., the wrong answers). A well-designed distractor is just as important as the correct answer, as it helps students critically evaluate their knowledge and apply concepts. Well thought out distractors will also reduce the number of students arguing for points back, which they \emph{will} do! When a student contests a question/answer, we call these \protect\hyperlink{benchmark-queries}{Queries}.
+\end{enumerate}
+
+\textbf{Why Do We Do Benchmarks This Way?}
+
+Benchmarks are more than just a way to assess students; they are a \textbf{learning tool} designed to:
+
+\begin{itemize}
+\tightlist
+\item
+  Encourage deeper understanding by focusing on scenario-based, real-world questions instead of rote memorization.
+\item
+  Encourage higher-order thinking by challenging students to apply and connect ideas.
+\item
+  Reinforce material by re-exposing students to concepts they struggled with in the past (i.e.~by readministering a question or version of a question the student got wrong in the past).
+\item
+  Reduce cheating by using mirrors.
+\end{itemize}
+
+This approach reflects our belief that testing is an opportunity to \textbf{learn through application and synthesis}, not just a way to assign grades.
+Alright\ldots{} Let's write some questions!
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{example-question-set-with-mirrors}{%
+\subsubsection{Example Question Set with Mirrors}\label{example-question-set-with-mirrors}}
+
+Let's look at an example question set about the ``Who's in the Expert's Chair'' segment from the ``New Insights into Life and Learning'' lecture. Take a look and while you do ask yourself what makes these good question? What are they all doing? How are they different?
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\begin{minipage}[b]{0.03\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
+\textbf{Question Stem}\strut
+\end{minipage} & \begin{minipage}[b]{0.67\columnwidth}\raggedright
+\textbf{Answer Choices}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.03\columnwidth}\raggedright
+\textbf{Mirror 1}\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+According to the ``Who's in the Expert's Chair'' segment of the ``New Insights into Life and Learning'' lecture, which of the following is the BEST way to combat belonging uncertainty in an incoming freshman?\strut
+\end{minipage} & \begin{minipage}[t]{0.67\columnwidth}\raggedright
+1. Give out loads of free university merch like pencils, koozies, and shirts. 2. Withhold statements from upperclassmen's experiences because it can stress them out. 3. Tell them impostor syndrome is not a real phenomenon. 4. Skip straight to classes with no orientation resources because students are intelligent enough. 5. \textbf{Show them evidence that other students also feel belonging uncertainty and loneliness. (Correct)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.03\columnwidth}\raggedright
+\textbf{Mirror 2}\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+Mary is an instructor who wants to help combat belonging uncertainty for her incoming freshmen. According to the ``Who's in the Expert's Chair'' segment of the ``New Insights into Life and Learning'' lecture, which of the following is the BEST thing Mary could do?\strut
+\end{minipage} & \begin{minipage}[t]{0.67\columnwidth}\raggedright
+1. Isolate them from upperclassmen because seeing them and hearing about their experiences may be stressful. 2. Tell her students they are all naturally smart and are going to do well. 3. Inform her students that intelligence is fixed and they clearly deserve a place in the university. 4. Do nothing because there are no interventions to prevent loneliness and belonging uncertainty in students. 5. \textbf{Have upperclassmen present their experiences of finding clubs and organizations that helped them belong. (Correct)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.03\columnwidth}\raggedright
+\textbf{Mirror 3}\strut
+\end{minipage} & \begin{minipage}[t]{0.21\columnwidth}\raggedright
+According to the ``Who's in the Expert's Chair'' segment of the ``New Insights into Life and Learning'' lecture, Mary is an incoming freshman student struggling with feelings they don't belong. Which of the following is the BEST way for Jimmy to combat belonging uncertainty?\strut
+\end{minipage} & \begin{minipage}[t]{0.67\columnwidth}\raggedright
+1. Belonging uncertainty is not a real phenomenon. It differs for everyone. 2. Leave club and organization fairs and information for much later in the year to not overwhelm them. 3. Tell them they're just nervous and most freshmen don't feel that way. 4. Cease teaching about growth vs.~fixed mindsets because it has been taught since middle school. 5. \textbf{Inform them that struggle is not a sign they lack intelligence, but a sign of challenge and development. (Correct)}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{Source Details from Question Set Author} \emph{``Interventions for Belonging Uncertainty Growth Interventions Belonging Interventions Give two ideas: first these difficulties are normal, second they can improve ``The process through which I become smarter is by speaking up in class'' Reading and Writing Experiment\ldots{} 7,600 freshmen randomly were assigned to a Growth Mindset or Belonging Intervention Belonging intervention\ldots{} learn that most students are worried about belonging and then you learn about students that came to belong (joined orgs, asked questions, etc.) Growth mindset intervention\ldots{} your brain can grow and develop; your abilities are not fixed\ldots{} when you struggle, it's not a sign that you're dumb, you're challenging yourself and building muscle Control group\ldots{} standard orientation materials RESULTS: The achievement gap between high-socioeconomic and low-socioeconomic students and between races was REDUCED significantly after this (40\%). From the Who's in the Expert Chair segment at \textasciitilde55:50 in the recording"}
+
+Let's go over some of the key features of this question set.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Applying Knowledge/Real-World Application}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Notice how each question is asking about a topic from the lecture in a way that encourages the student to \emph{apply} the knowledge about \emph{belonging uncertainty} to a new scenario, as opposed to just memorizing definitions. Each mirror ties the idea of \emph{belonging uncertainty} to a real world situation. In this case the correct answer also reinforces researched-based strategies the students are learning in class that they can even use themselves! This provides much \emph{more of a learning opportunity} than, ``Define belonging uncertainty.''
+  \end{itemize}
+\item
+  \textbf{Testing the Same Concept}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Each question (mirror) tests strategies for combating \emph{belonging uncertainty} as discussed in the ``Who's in the Expert's Chair'' segment of the ``New Insights into Life and Learning'' lecture.
+  \end{itemize}
+\item
+  \textbf{Consistency in Difficulty}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Each mirror is of similar difficulty. It would not be fair to have a set with questions of varying difficulty.
+  \end{itemize}
+\item
+  \textbf{Variation in Stems and Contexts}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    While the concept remains the same, the stems are varied to frame the concept in different ways.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Mirror 1: A question about the best strategy in general.
+    \item
+      Mirror 2: A scenario with an instructor, Mary, helping freshmen.
+    \item
+      Mirror 3: A personal scenario involving an incoming student, Jimmy.
+    \end{itemize}
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{the-writing-process}{%
+\subsection{The Writing Process}\label{the-writing-process}}
+
+For a given lecture:\\
+1. Read the source material. \href{https://utexas.instructure.com/courses/1425333}{Noba Course Materials}\\
+2. Watch the recorded video posted on Canvas.\\
+3. Pull the \href{https://utexas.app.box.com/s/gv30palwx7zhqfk43vgvy8450ci0qz66/folder/333986317433}{Transcript}.\\
+4. Coordinate with your co-writers to avoid topic/question overlap, \href{https://docs.google.com/spreadsheets/d/1hingHbcfSHpUr1Km8NF4nnrDgw5ivD6b/edit?gid=602524248\#gid=602524248}{Benchmark Writing Schedule}.\\
+- One person writes 3 question sets (3Q), the other will write 4 question sets (4Q). (This will alternate.)\\
+- You will be able to \protect\hyperlink{recycling-benchmark-questions}{``recycle'' old questions sets} for some of your sets, more on that later.\\
+5. For each question set, write 1 benchmark question and 2 additional mirrors for each topic.\\
+6. Submit your completed sets to your editor by the date specified in the \href{https://docs.google.com/spreadsheets/d/1hingHbcfSHpUr1Km8NF4nnrDgw5ivD6b/edit?gid=602524248\#gid=602524248}{Benchmark Writing Schedule}.\\
+7. Revise your questions based on editor feedback.\\
+8. Notify the course coordinator on Slack that your questions are ready for review by the date specified in the writing schedule.\\
+9. If needed, revise your questions based on course coordinator feedback then notify course coordinator when your questions are ready for review.
+10. The course coordinator then uploads the questions to Tower (the system we use to administer benchmarks).
+
+Note: For those of you who will write your benchmark questions on lectures based on the live Thursday classes, you will \textbf{submit half of your questions based on readings by the due date on the schedule}. Then, once the lecture goes live, you can write the other half of your questions. This second half of your question sets (based on the new lecture) will always be due to RAZ by that Sunday. TA editors will not review the second half in the interest of time. Editing will be done by RAZ.
+
+\hypertarget{content-guidelines}{%
+\subsection{Content Guidelines}\label{content-guidelines}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Choosing Topics}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Given all the information the students have to take in, it would be unfair to write a question that is based entirely on one sentence in the lecture or readings. (This is not a memorization or detail test.) Try to focus on key concepts that are presented for \textasciitilde5--15 minutes of lecture or multiple reading paragraphs. Try to think of the benchmark you are creating as a whole rather than focusing only on the questions you are writing. \textbf{What are the most important things you think students should take away from the class (or that you personally took away from the class)?} Does the benchmark assess those things? What is being left out? There is a lot of material in each lecture and readings, and we only have seven questions to test students' understanding.
+  \end{itemize}
+\item
+  \textbf{Focus on Applying Concepts}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Use real-world scenarios to test concepts from the lecture that can be used to make predictions or gain understanding in real-world scenarios.
+  \item
+    Just because a question includes a scenario does not necessarily mean it is an applied question. If the main thing you are asking students to do is match a scenario to a term/terms from the reading or lecture, you are probably asking a vocabulary question. Rather than testing recall of terms, questions should test if students can use critical thinking to understand the how/why/effects of concepts and how concepts connect to each other. You might try to \textbf{think about how you can write questions that challenge the student to use a concept from class to explain or predict a phenomenon in the real world}.
+  \end{itemize}
+\item
+  \textbf{Cumulative Questions}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    When possible, concepts from earlier lectures/readings should be incorporated into new questions. This is a good opportunity to create distractors that are wrong in the context of the question without being as easy to eliminate. For example, one of the distractor for a question in the Adolescent Development benchmark refers to the hypothalamus from the Brain and Hormones lecture. The distractor is plausible in that the hypothalamus is indeed involved in the production hormones, however that is not the correct answer in this case.
+  \end{itemize}
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.30\columnwidth}\raggedright
+\textbf{Question Stem}\strut
+\end{minipage} & \begin{minipage}[b]{0.64\columnwidth}\raggedright
+\textbf{Answer Choices}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.30\columnwidth}\raggedright
+Talia is a fourteen-year-old girl who has recently begun feeling more anxious and depressed. According to the ``Adolescence'' lecture, what is the BEST explanation for what might have caused this change?\strut
+\end{minipage} & \begin{minipage}[t]{0.64\columnwidth}\raggedright
+1. Her dopamine levels are abnormally high. \textbf{2. Her hypothalamus isn't producing enough hormones.} 3. Her DHEA levels have decreased. 4. Her testosterone levels have decreased. 5. Her estradiol levels have increased. (Correct)\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  \textbf{Balance Difficulty}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    We aim to have one or two fairly straightforward questions and one or two more difficult ones. Always remember, your questions will always seem easier to you than to students because you know the right answer! \emph{Remember difficulty should not vary across the mirrors!}
+  \end{itemize}
+\item
+  \textbf{Do Not Rely on Outside Information and Avoid Culturally Specific Examples}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Do not write questions that require culturally specific or uncommon knowledge to understand the question and answer. Many of our students did not grow up in Texas or the United States, so may be less familiar with characters from TV or consumer products that are common here.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      In the example below from the Memory lecture, the student would need to know that Sickle Cell Anemia is an inherited, genetic disorder to answer this question which is beyond the scope of this class and lecture.
+    \end{itemize}
+  \item
+    Avoid cultural specific examples like, ``Jasmine is celebrating her \textbf{quinceanera} in two weeks. According to the''Lecture``, Jasmine is most likely in which developmental stage?''
+  \item
+    Remember, you likely have more knowledge than most of the first year freshmen! Things you consider common knowledge might not be. ;)
+  \end{itemize}
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.30\columnwidth}\raggedright
+\textbf{Question Stem}\strut
+\end{minipage} & \begin{minipage}[b]{0.64\columnwidth}\raggedright
+\textbf{Answer Choices}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.30\columnwidth}\raggedright
+Lily's father is suffering from \textbf{Sickle Cell Anemia}. She is also taking a biology class and has an exam coming up. According to the ``Memory'' Lecture, which of the following concepts is Lily MOST LIKELY to remember?\strut
+\end{minipage} & \begin{minipage}[t]{0.64\columnwidth}\raggedright
+1. Symbiosis 2. Photosynthesis 3. Biodiversity 4. The Food Chain 5. Genetic Mutations (Correct)\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  \textbf{General Rules}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Don't make the stems or answers choices \emph{too} long. Remember, the students only have 10 minutes!
+  \item
+    Avoid sesquipedalian, esoteric, overly complex, or redundant words (this bullet point is a good example of what \textbf{not} to do).
+  \item
+    Questions should ask which of the following answers is correct. Avoid questions that ask students to identify which is not correct.
+  \item
+    The question may reappear at a later date so make sure there are no questions that depend on the current date/time.
+  \item
+    Be sure it's clear which lecture the answer refers to by saying ``According to the lecture/reading\ldots{}'' This reduces chances of students referring to other material.
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{distractors}{%
+\subsection{Distractors}\label{distractors}}
+
+Distractors are what we call incorrect answers. Writing good distractors is an art form. Most of what makes a question good or difficult is in the distractors because they force students to determine why the distractors are wrong. You should focus just as much time (if not more!) on writing good distractors as you would the correct answer.
+
+\hypertarget{key-guidelines-for-distractors}{%
+\subsubsection{Key Guidelines for Distractors}\label{key-guidelines-for-distractors}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Distractors are Incorrect for a Reason}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Make sure distractors are wrong for a specific reason based on what students have learned in class. More than making it hard for students to argue for the distractors, we want students to pick the correct answer because they see which possibilities are incorrect because of what they learned in this class. When you have a certain correct answer in mind it's easy not to notice that some of the distractors could also be correct if you think about the question a different way.
+  \item
+    Ask yourself,
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \textbf{``Could someone argue this particular answer?''}
+    \item
+      \textbf{``Could someone interpret this distractor in such a way that it could be a plausible correct answer?''}
+    \item
+      \textbf{``Is there any possible way that distractor could be correct?''}\\
+    \end{itemize}
+  \item
+    You will have to address any \protect\hyperlink{benchmark-queries}{Queries} for a question you wrote!
+  \end{itemize}
+\item
+  \textbf{Exclusion Doesn't Mean Wrong}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Do not write distractors that are only ``wrong'' because they weren't mentioned in class: this encourages students to ignore other potential factors in real life scenarios just because they happened not to learn about them here. And they could easily be true and you just don't know! This is a recipe for queries\ldots{}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      One way around this is to ask \emph{``According to X person/theory, what is the BEST\ldots{}''} This way, you could theoretically write answer choices that weren't mentioned in class, as long as they can't be argued to fit well with the theory/model in question. For example: ``An adherent of Freud's theory of the mind would MOST likely explain this by saying\ldots{}''
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{``Not enough information\ldots{}'' - ``None of the above'' - ``All of the above''}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Do not use ``It is difficult to determine\ldots{}'' or ``There's not enough information\ldots{}'' distractors. With the questions we write, it could certainly be the case there is not enough info. Life is complicated and even with the information we present in class, there may not be enough information to undisputedly ``determine'' anything in a hypothetical situation.
+  \item
+    Avoid ``None of the above'' or ``All of the above'' answer choices.
+  \end{itemize}
+\item
+  \textbf{Avoid Extremes and Nevers}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Avoid extremes (always, never, all, none, etc.) in distractors\ldots{} This typically makes them easy to guess that they are wrong because things are rarely ``always'' or ``never''. Having one every now and then is OK, but don't consistently use extremes in all question.
+  \end{itemize}
+\item
+  \textbf{Consistency in Answer Choices}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Make sure all your answer choices ``look'' the same. For example, if you write your answer choices with a period at the end, make sure all answer choices are in a similar format.
+  \item
+    Distractors should be of similar lengths and depth. Don't have some distractors be super wordy or one word answer amongst a bunch of one word or super wordy distractors, respectively.
+  \end{itemize}
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.30\columnwidth}\raggedright
+\textbf{Question Stem}\strut
+\end{minipage} & \begin{minipage}[b]{0.64\columnwidth}\raggedright
+\textbf{Answer Choices}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.30\columnwidth}\raggedright
+What is your favorite color?\strut
+\end{minipage} & \begin{minipage}[t]{0.64\columnwidth}\raggedright
+1. Red 2. Green \textbf{3. the color perceived when all wavelengths of visible light are reflected equally by an object} 4. Blue 5. Black\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  \textbf{Make Sure Distractors Fit the Question}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    In the example below, while distractor \#3 is a well written distractor, it doesn't fit well with the rest of the answer choices or to the question, so it seems like an obvious wrong answer.
+  \end{itemize}
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.30\columnwidth}\raggedright
+\textbf{Question Stem}\strut
+\end{minipage} & \begin{minipage}[b]{0.64\columnwidth}\raggedright
+\textbf{Answer Choices}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.30\columnwidth}\raggedright
+According to the evolutionary model of adolescence in the `Adolescence' lecture and `Who's in the Expert Chair', which of these is MOST LIKELY the purpose of behavioral risks during adolescence?\strut
+\end{minipage} & \begin{minipage}[t]{0.64\columnwidth}\raggedright
+1. Engaging in risky behaviors during adolescence is primarily to ensure the adolescent remains dependent on their caregivers 2. Adolescents engage in risky behaviors to reduce their social connections and isolate themselves from peer groups \textbf{3. Adolescent organisms' cognitive control centers are fully developed before their dopaminergic systems} 4. The purpose of behavioral risks during adolescence is to maintain a low social profile and avoid gaining attention from peers 5. Behavioral risks are opportunities for an organism to explore new things and become prepared to become self sufficient (Correct)\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  \textbf{Try Not to ``Flip'' Answer Choices}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Avoid making a distractor that is the negation of the correct answer. By process of elimination, the other answers are typically incorrect.
+  \item
+    In the example below, there are two answer choices that stick out because it is the same answer with the names flipped. Though not always true, many times when you see these in answer choices, one of the two choices is correct\ldots{}
+  \end{itemize}
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.30\columnwidth}\raggedright
+\textbf{Question Stem}\strut
+\end{minipage} & \begin{minipage}[b]{0.64\columnwidth}\raggedright
+\textbf{Answer Choices}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.30\columnwidth}\raggedright
+Tony grew up with high-quality education while Isabella did not. According to the ``Who's in the Expert's Chair'' segment of the ``Social Class'' lecture, what is MOST likely the effect of this on their cognitive abilities?\strut
+\end{minipage} & \begin{minipage}[t]{0.64\columnwidth}\raggedright
+1. Tony and Isabella will develop the same cognitively \textbf{2. Isabella will have a higher rate of cognitive development than Tony} 3. Tony will develop cognitive abilities later than Isabella 4. Isabella will develop cognitive abilities sooner than Tony 5. \textbf{Tony will have a higher rate of cognitive development than Isabella} (Correct)\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{mirrors-how-and-why}{%
+\subsection{Mirrors: How and Why}\label{mirrors-how-and-why}}
+
+Mirrors are \textbf{different versions of the same question}, designed to cover the same major topic (e.g., postsynaptic potentials). One of the primary purposes of mirrors is to \textbf{prevent cheating} by creating variations that make it difficult for students to collaborate or memorize answers. The other primary purpose of mirrors is to encourage to put in the effort to gain a deeper understanding of the material. When a student gets a question wrong on the benchmark, ex. something about the big five, on future benchmarks they will be given one question they missed which may be the original question OR a mirror. This encourages students to go beyond just memorizing the correct answer for questions they get wrong. By following the guidelines below, you'll craft mirrors that are effective, fair, and reinforce student learning while minimizing opportunities for academic dishonesty.
+
+\hypertarget{key-guidelines-for-writing-mirrors}{%
+\subsubsection{Key Guidelines for Writing Mirrors}\label{key-guidelines-for-writing-mirrors}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Ensure Consistent Difficulty Across Mirrors}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    All mirrors for a question should be of the same difficulty level to ensure fairness. We wouldn't want one student to get the easy version and another to get the hard version.
+  \end{itemize}
+\item
+  \textbf{Names in Question Sets Should Vary}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Names should not be repeated within question stems or across mirrors. Be creative with the names you pick but please try to use a variety of names from different cultures and ethnic groups.
+  \end{itemize}
+\item
+  \textbf{Avoid Identical Stems}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Do not reuse the exact same question stem across mirrors unless:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      You are \textbf{changing all names in the stem}, AND
+    \item
+      You are writing \textbf{completely new distractors} (not just changing names in the distractors).
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Vary Correct Answers}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If possible, consider using correct answers from one mirror as distractors in other mirrors. This adds variation and makes mirrors more effective at preventing cheating. (Students may see the same answer choices and incorrectly assume it is the same question as their co-conspirator.)
+  \end{itemize}
+\end{enumerate}
+
+Below is a set for the \emph{Psychology of Money and Social Class} lecture. Notice how the answer choices are essentially the same but all the names are changed and the correct answer varies based on the question stem.
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\begin{minipage}[b]{0.05\columnwidth}\raggedright
+\strut
+\end{minipage} & \begin{minipage}[b]{0.38\columnwidth}\raggedright
+\textbf{Question Stem}\strut
+\end{minipage} & \begin{minipage}[b]{0.48\columnwidth}\raggedright
+\textbf{Answer Choices}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.05\columnwidth}\raggedright
+\textbf{Mirror 1}\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+A researcher gives four people \$30 each and tells them that they can either keep it for themselves or donate it. According to Paul Piff's TED Talk, who is MOST likely to donate it?\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+1. Michael, who makes \$51,000 annually. 2. Leo, who makes \$79,000 annually. 3. Donna, who makes \$260,000 annually. 4. All of them are equally likely to donate the money. \textbf{5. Elliot, who makes \$22,000 annually. (Correct)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.05\columnwidth}\raggedright
+\textbf{Mirror 2}\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+A researcher gives four people \$30 each and tells them that they can either keep it for themselves or donate it. According to Paul Piff's TED Talk, who is MOST likely to keep it for themselves?\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+1. Parker, who makes \$22,000 annually. 2. Tracy, who makes \$51,000 annually. 3. Marcus, who makes \$79,000 annually. 4. All of them are equally likely to donate the money. \textbf{5. Brianna, who makes \$260,000 annually. (Correct)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.05\columnwidth}\raggedright
+\textbf{Mirror 3}\strut
+\end{minipage} & \begin{minipage}[t]{0.38\columnwidth}\raggedright
+A researcher places four people in their own rooms, each with a bowl of chocolates. They are told that the chocolate is not for them, and it is for another participant arriving later. According to Paul Piff's TED Talk, who in the group will consume the MOST chocolate despite being told it's not for them?\strut
+\end{minipage} & \begin{minipage}[t]{0.48\columnwidth}\raggedright
+1. Sebastian, who makes \$22,000 annually. 2. Mavis, who makes \$51,000 annually. 3. Alex, who makes \$79,000 annually. 4. All of them are equally likely to consume the chocolate. \textbf{5. Stefan, who makes \$260,000 annually. (Correct)}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{benchmark-spreadsheet-for-each-lecture}{%
+\subsection{Benchmark Spreadsheet for Each Lecture}\label{benchmark-spreadsheet-for-each-lecture}}
+
+For each lecture, there will be a Google Sheet to add your new questions and reference old ones. Here is a link to the \href{https://drive.google.com/drive/folders/1TBohqmI-Khge4n4NfeWAjVi5rFwVx2D6?usp=drive_link}{folder} with all the benchmark spreadsheets by topic.
+
+Below is a breakdown of each column in the spreadsheet.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{RAZ's Comments}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is where the course coordinator (currently RAZ) will leave editing comments. When you respond to a comment in this column, please be sure to write your initials followed by a colon. If no edits are needed, typically you'll see a ``good job!'' or something similar. When an edit is needed, typically that comment will be bolded to bring your attention to it. 😉 If you respond to an edit here, please briefly explain what was changed/altered in the question.
+  \end{itemize}
+\item
+  \textbf{Editing Comments}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is where question editors write their comments. Be sure to write your initials with a colon followed by your comment. When responding to editor comments, please be sure to use your initials, too. This way we can keep track of:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      The editor comments.
+    \item
+      How the comment was addressed.
+    \item
+      If there is a follow-up question for the course coordinator.
+    \end{enumerate}
+  \end{itemize}
+\item
+  \textbf{Tower ID}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is the tag we use in Tower when we create a benchmark. We will set it up in such a way that it will pull one question from the ``bm02\_belonging\_uncertainty'' set. Each question set should have a unique Tower ID which includes ``bm'', the benchmark number, and the topic. These \textbf{must} be the same for all mirrors. For example ``bm01\_makeups''.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \texttt{bm02\_} = benchmark number 2
+    \item
+      \texttt{belonging\_uncertainty} = the topic the questions are about
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Question Topic}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Specify the key concept being tested. This is similar to the Tower ID but may have a bit more detail.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \texttt{Belonging\ Uncertainty}
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Stem}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is the question itself.
+  \end{itemize}
+\item
+  \textbf{D1-D4}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    These are the four distractors. The order is \emph{always} the same with the four distractors first and the correct answer last.
+  \end{itemize}
+\item
+  \textbf{Correct Answer}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is the correct answer. This \emph{always} comes after the four distractors.
+  \end{itemize}
+\item
+  \textbf{R/L/Int: from Reading, Lecture, or Integrative}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Your questions will come from information discussed in either the readings, lecture, or both. Use one letter to mark whether the question is based on:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \texttt{R} = Reading
+    \item
+      \texttt{L} = Lecture\\
+    \item
+      \texttt{I} = Integrative
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Link to Material}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is is where you link to the readings or to the time in the lecture recording where a student could get more information about the question.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      If you are linking to a reading, you can either use the link to the Canvas readings (but make sure it is the correct link, sometimes people use an old Canvas link from a previous semester which will not work) OR you can use the URL to the original content (e.g., NOBA link, \url{https://nobaproject.com/modules/the-nature-nurture-question}). You can find them on Canvas or on the list of all the readings in the \protect\hyperlink{course-materials}{Course Materials: Readings section}.
+    \item
+      If you are linking to a moment in the lecture, use a time stamp but please be sure to format it as follows:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        ``Lecture hh:mm:ss'' (You do not have to get down to the seconds.)
+      \item
+        If you don't write ``Lecture,'' sometimes Sheets tries to convert it to some weird date variable which messes things up.
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Source Details}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This is quotes or information from lectures or readings that are most relevant to choosing the correct answer. This information is also very useful for editing and when responding to queries.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      For reading-based questions: Copy a relevant excerpt that explains the correct answer.
+    \item
+      For lecture-based questions: Include the time stamp and a brief synopsis or relevant transcript text.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Author}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Update this field with your name, even if the question is recycled.
+  \end{itemize}
+\item
+  \textbf{New/Recycled}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If the question is new, write ``New''.\\
+  \item
+    If recycled, note the semester and year (e.g., ``Fall 2019'') and describe any changes in the ``Changes'' column.
+  \item
+    Always use the most recent version of a recycled question if it has been adapted in later semesters.
+  \end{itemize}
+\item
+  \textbf{Changes (if old)}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    When recycling a question, note what you changed/updated. For example, ``Changed stem (scenarios, names) and tweaked answer choices''.
+  \end{itemize}
+\end{itemize}
+
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/benchmark_spreadsheet_1.png}
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/benchmark_spreadsheet_2.png}
+
+Lastly, at the very bottom of a spreadsheet, there are multiple tabs for each semester and year. You can use these old tabs to review and/or to recycle questions. It is helpful to look over some of the old questions and associated comments to help you write new and recycled content.
+
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/benchmark_spreadsheet_3.png}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{spelling-and-formatting-formalities}{%
+\subsection{Spelling and Formatting Formalities}\label{spelling-and-formatting-formalities}}
+
+All the question writing and editing we do happens in Google Sheets, where we can freely use formatting tools like bold text, colors, and other visual aids to make the process easier. However, once the questions are finalized, the course coordinator will need to adapt that fun and visually enhanced sheet to match the strict format required for Tower. This step is critical, as Tower (the system we upload all of our questions to) has strict formatting rules that must be followed to ensure the questions work correctly in the system. Taking the time to double-check these details ensures a smooth upload process and prevents formatting errors from causing delays or issues. ;)
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Spell Check!}: Please be sure to use spell check before you send your questions to your editors.
+\item
+  \textbf{Avoid Math Symbols at the Start}: Cells cannot begin with math symbols (\texttt{+}, \texttt{=}), as they are autoformatted into equations and may produce unintended results.
+\item
+  \textbf{Avoid Numeric Ratios}: Entire cells cannot be a numeric ratio (e.g., \texttt{50:50}), as they are automatically converted to times (e.g., \texttt{1:60} becomes \texttt{2:00:00.00}). This is also important when you write the time stamps for your ``Link to Readings'' section. If you input 15:25 (fifteen minutes and 25 seconds into lecture), this can be converted to an annoying date time. Use the following formatting for timestamps: \textbf{Lecture 15:25}. Typing ``Lecture'' in there is super important!
+\item
+  \textbf{Capitalize Key Words}: Words like ``According to the lecture {[}topic{]}, which of the following is the BEST explanation for x,y,z?''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{recycling-benchmark-questions}{%
+\subsection{Recycling Benchmark Questions}\label{recycling-benchmark-questions}}
+
+Based on your benchmark writing assignment for a given week, you'll be creating 3 or 4 question sets. If you are assigned to write \textbf{3 question sets}, you can \textbf{recycle 1 set}. If you are assigned to write \textbf{4 question sets}, you can \textbf{recycle 2 set}. Recycling benchmark questions can save time and effort while still maintaining the quality of our benchmarks. Below are the rules and best practices for recycling benchmark questions from previous semesters.
+
+\hypertarget{guidelines-for-recycling-questions}{%
+\subsection{Guidelines for Recycling Questions}\label{guidelines-for-recycling-questions}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Recycling Rules}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Every benchmark spreadsheet has multiple tabs at the bottom with questions from past semesters. You can refer to these for some potential sets. But \textbf{do not recycle questions from the most recent, previous semester}. Sometimes we have students from the prior semester retaking or completing the class in the current semester.
+  \item
+    When recycling questions, \textbf{always update the names} used in the scenarios. Be extra careful about changing all instances of the name. If you change the gender in a scenario, be sure the \textbf{pronouns are consistent across the stem and answer choices}.
+  \item
+    Modify some pieces of the \textbf{stem or scenario} and update distractors as needed. The goal is to avoid exact copies of old questions since these may already be available online.
+  \end{itemize}
+\item
+  \textbf{Avoid Recycling Content That Might Change}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    In the \textbf{Fall semesters}, the Thursday lecture are recorded live. To avoid recycling content that may change, it is better to wait for that recording before you start writing questions on segments that might have changed from the prior semester, like \emph{Psychology in the News}.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      So you are not writing too much over the weekend, it is a good idea to write some question sets on the readings, which you can send up the editing chain as they are ready. Once the recording is released, you can base your other sets on the lecture.\\
+    \end{itemize}
+  \item
+    In the \textbf{Spring semesters}, all the lectures are pre-recorded and available to you, so you don't have to worry about timestamps or segments changing. (You could even get ahead with your benchmark writing in the Spring semesters!)
+  \end{itemize}
+\item
+  \textbf{Consult the Source Details}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you're recycling a question tied to a lecture or reading, double-check the \textbf{Source Details} column in the benchmark spreadsheet. Confirm that the referenced material is still accurate and up-to-date. Transcript information, time stamps, and occasionally NOBA readings can and do change.
+  \end{itemize}
+\item
+  \textbf{Make Note About Changes}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Lastly, on the benchmark spreadsheet for that lecture, please be sure to note in the ``Changes (if old)'' column, 1) the semester the question was pulled from, and 2) the changes you make to the question.
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{editing-and-revising-questions}{%
+\subsection{Editing and Revising Questions}\label{editing-and-revising-questions}}
+
+For any benchmark, we have two writers and two editors. One writer creates 3 sets (2 new and up to 1 recycled) and the other 4 sets (2 new and up to 2 recycled). One editor is assigned for each writer and their corresponding sets. The editor reviews question sets for things like grammar, clarity, and consistency. Editors review questions and send feedback to writers. The writers will then revise and send to the course coordinator for final review.
+
+\hypertarget{editing-process}{%
+\subsubsection{Editing Process}\label{editing-process}}
+
+\hypertarget{writing-benchmarks}{%
+\paragraph{Writing Benchmarks}\label{writing-benchmarks}}
+
+\begin{itemize}
+\tightlist
+\item
+  Writers should complete their benchmarks and edits by the deadlines noted on the \href{https://docs.google.com/spreadsheets/d/1hingHbcfSHpUr1Km8NF4nnrDgw5ivD6b/edit?gid=602524248\#gid=602524248}{BM Schedule}.\\
+\item
+  Once finished, notify the corresponding editor via Slack.
+\end{itemize}
+
+\hypertarget{editing-benchmarks-in-general}{%
+\paragraph{Editing Benchmarks in General}\label{editing-benchmarks-in-general}}
+
+\begin{itemize}
+\tightlist
+\item
+  Editors should review their assigned questions and note feedback in the \textbf{``Editing Comments''} section of the spreadsheet.\\
+\item
+  Use your initials when commenting, for example ``RAZ: looks great!''
+\item
+  Large changes should be noted for writers to address.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Be sure to check for naming and pronoun consistency!\\
+  \item
+    Make sure the formatting of the answer choices are the same! (ex. All have or do not have periods.)
+  \end{itemize}
+\item
+  Small changes (e.g., typos, rewording) should be made \textbf{directly by the editor}.\\
+\item
+  Complete your edits and notify writers via Slack by the deadline noted on the \href{https://docs.google.com/spreadsheets/d/1hingHbcfSHpUr1Km8NF4nnrDgw5ivD6b/edit?gid=602524248\#gid=602524248}{BM Schedule}.
+\end{itemize}
+
+\hypertarget{editing-benchmarks-for-content}{%
+\paragraph{Editing Benchmarks for Content}\label{editing-benchmarks-for-content}}
+
+\begin{itemize}
+\item
+  When you are editing a question set, it is super important to ask yourself:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ``Could a freshman student who only read the readings and watched the lecture be able to figure out the answer?''\\
+  \item
+    ``Could any of the answers be interpreted in such a way that it may be correct?'' (We do not want that kind of ambiguity!)
+  \end{itemize}
+\item
+  Check to make sure the source material and links to readings or lecture are correct.
+\item
+  Use your initials when commenting, for example: \texttt{"RAZ:\ looks\ great!"}
+\item
+  Large changes should be noted for writers to address.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Be sure to check for naming and pronoun consistency!\\
+  \item
+    Make sure the formatting of the answer choices is the same (e.g., all have or do not have periods).
+  \end{itemize}
+\item
+  Small changes (e.g., typos, rewording) should be made \textbf{directly by the editor}.
+\item
+  Complete your edits and notify writers via Slack by the deadline noted on the \href{https://docs.google.com/spreadsheets/d/1hingHbcfSHpUr1Km8NF4nnrDgw5ivD6b/edit?gid=602524248\#gid=602524248}{BM Schedule}.
+\end{itemize}
+
+\hypertarget{benchmark-writer-revisions}{%
+\paragraph{Benchmark Writer Revisions}\label{benchmark-writer-revisions}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Incorporate your editor's feedback.}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If for some reason you \emph{do not agree} or do not understand a particular edit, leave a comment with your initials and your reasoning in the \textbf{``Editing Comments''} section after the editor's comment. The Course Coordinator will review and instruct the benchmark writer accordingly.\\
+  \item
+    Notify the Course Coordinator that your benchmarks are ready for review via Slack by the deadline.\\
+  \item
+    Incorporate any revisions from the Course Coordinator as necessary and let them know the questions are ready for review again via Slack. They will let you know when the questions are finalized.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{benchmark-queries}{%
+\section{Benchmark Queries}\label{benchmark-queries}}
+
+No matter how well we write, edit, and proofread our benchmark questions, someone will interpret a question or answer differently. The majority of the time, the student is not understanding the materials, but\ldots{} sometimes they have a good point. In these cases, we may give them a point back. If it is a problem with the question, we update the question and give points back to students who answer a particular way. (Students can also submit a query about an RAS question, though these are less common. Notify the lead TA when this happens, and they will address it.) Part of your job is fielding these ``queries'', which is its own art form.
+
+What you'll find in this chapter:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{benchmark-query-process}{Benchmark Query Process}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{student-guidelines}{Student Guidelines}\\
+  \item
+    \protect\hyperlink{query-handling-timeline}{Query Handling Timeline}\\
+  \end{itemize}
+\item
+  \protect\hyperlink{sample-query-responses}{Sample Query Responses}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{general-query-response}{General Query Response}\\
+  \item
+    \protect\hyperlink{query-submitted-same-day-or-after-1-week}{Query Submitted Same Day or After 1 Week}
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{benchmark-query-process}{%
+\subsection{Benchmark Query Process}\label{benchmark-query-process}}
+
+All query responses are collected via a Google Form created every semester. (If a student reaches out in some other way, like Canvas or email, they should be directed to the Query Google Form.) The lead TA shares the information from the Google Form in a spreadsheet.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Link for students to submit queries}: \href{https://docs.google.com/forms/d/e/1FAIpQLScYNAgevXAAGxNpb4ZcvrgqLZcxAFTuuJVh2lnxgro9giPDhA/viewform?usp=header}{BM Query Submission Form}. \emph{(This link is already in the syllabus.)}\\
+\item
+  \textbf{Link for TAs to read and review queries}: \href{https://docs.google.com/spreadsheets/d/157q5gae1Fw06ENQTDr1A2MhT3Q_qqqx4PAqaWady7K8/edit?gid=1566396974\#gid=1566396974}{Benchmark Queries Spreadsheet}
+\end{itemize}
+
+\hypertarget{student-guidelines}{%
+\subsubsection{Student Guidelines}\label{student-guidelines}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Purpose}: Queries are for students to argue why their answer is the ``best'' due to an \textbf{ERROR} in the benchmark question. Examples of valid errors include:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A typo or ambiguity in the question.\\
+  \item
+    Flawed logic in the question or answer choices.\\
+  \end{itemize}
+\item
+  \textbf{NOT for Clarification}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Queries are \textbf{not} an avenue for students to ask why their answer is wrong.\\
+  \item
+    Direct these students to a TA's office hours instead of the query form.\\
+  \end{itemize}
+\item
+  \textbf{Submission Deadline}: Students must submit a query \textbf{within 1 week} of receiving their grade.\\
+\item
+  \textbf{Cool Down Period}: Students cannot submit a query on the same day the benchmark was given. (This is a ``cool down'' period which helps reduce the number of spurious queries caused by impulsive or hasty review of their answers.)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{query-handling-timeline}{%
+\subsubsection{Query Handling Timeline}\label{query-handling-timeline}}
+
+Queries must be responded to within \textbf{48 hours} of submission. We aim to respond to all queries within 48 hours so a student can use the feedback to help them with upcoming benchmarks. In the past, under \textbf{20\% of students} have successfully received points back on a query. However, please consider each query neutrally and openly. At the beginning of the semester, each of you will be assigned certain days to check the PSY301 TA email and queries, \href{https://docs.google.com/spreadsheets/d/1AXT7fqusvnTBZrsaOuhRgZOQ4EmFNt0YmXQNxuAznls/edit?usp=sharing}{Email and Query Assignments} Please be sure to note your dates down and set reminders if need be. In the past, certain TAs have forgotten or missed one of their assigned days. This can create more work for the next assigned TA, which is no fun (and unfair). So please be sure to note when you are responsible for this and manage your time accordingly so the workload is evenly distributed-- and everyone is happy!
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Your Day to Check Emails and Queries}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Check the \href{https://docs.google.com/spreadsheets/d/157q5gae1Fw06ENQTDr1A2MhT3Q_qqqx4PAqaWady7K8/edit?gid=1566396974\#gid=1566396974}{Benchmark Queries Spreadsheet} on you assigned email day.\\
+  \item
+    For each query, identify the writer by checking the \href{https://docs.google.com/spreadsheets/d/1hingHbcfSHpUr1Km8NF4nnrDgw5ivD6b/edit?gid=602524248\#gid=602524248}{Benchmark Writing Schedule} and/or \href{https://drive.google.com/drive/folders/1TBohqmI-Khge4n4NfeWAjVi5rFwVx2D6?usp=drive_link}{Benchmark Writing Folder} to find the question the query is about. Note the writer on the \href{https://docs.google.com/spreadsheets/d/157q5gae1Fw06ENQTDr1A2MhT3Q_qqqx4PAqaWady7K8/edit?gid=1566396974\#gid=1566396974}{Benchmark Queries Spreadsheet} in the ``BM Writer'' column. Note if the query is in the acceptable time frame (\textgreater24 hours, \textless{} 1 week) in the ``Within acceptable submission time frame? (Y/N)'' column. Notify the benchmark writer if a student submits a query about their benchmark question. Lastly, updated the ``BM writer notified? (Y/N)'' column once you notify the writer.
+  \end{itemize}
+\end{itemize}
+
+If you are not the Benchmark Question Writer, you're all set! If you are the question writer, you have a few more steps. \textbf{You must review and respond to any queries to a question you wrote within 48 hours of receiving it.} This prevents queries from piling up and helps keep anxious students at bay.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Benchmark Question Writer Responsibilities}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Review and respond directly to the student via email within 48 hours of receiving the query.\\
+  \item
+    Consult with the team, lead TA, or course coordinator if you have questions or need guidance.\\
+  \item
+    Make a decision about the query:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      \textbf{No Points}: Clearly explain why the query does not warrant points.
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Write a \textbf{paragraph in an email} summarizing the material from the lecture or reading that supports the correct answer clearly explain why the student's chosen answer is incorrect
+      \item
+        Many queries come from students not fully understanding the content. Direct these students to office hours whenever possible to minimize unnecessary queries.\\
+      \end{itemize}
+    \item
+      \textbf{Point Awarded}:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        If justified, notify the lead TA to add the point back to the student's score.\\
+      \end{itemize}
+    \item
+      \textbf{Points for a Specific Answer Choice}:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        If the issue affects multiple students, points may be awarded to all who selected a specific answer choice.\\
+      \item
+        The lead TA or course coordinator will handle score adjustments in these cases.
+      \end{itemize}
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+After you have responded to the student, update the ``BM writer messaged student? (Y/N)'' and ``BM resolved? (Y/N)'' columns, appropriately.
+
+So, how do you know if they are making a good point and deserve a point? This starts with \emph{your} knowledge and judgement! Many times students are not understanding the content and just select the wrong answer, in which case, it is fairly straightforward to explain the error in their logic. But in those cases where you are unsure, ask yourself, ``Can I see their point? Would someone else be able to see their point and agree? Does it make logical sense?'' If you are still unsure, you can reach out to your fellow TAs to get their input, the lead TA, or the course coordinator.
+
+Though receiving a query about a question you wrote is no fun, especially if you have to give a point back to one or multiple students, these things happen! And to date, we haven't lost a single soul to a benchmark query! But hopefully this encourages you to be thoughtful about the questions you write. Ask yourself, ``How might someone argue for one of the wrong answers?'' or ``How might someone misinterpret my writing?'' Think about how you might explain the topic and reasoning of your question to someone who chose the wrong answer-- because they will try to fight you on this\ldots! Keeping these things in mind will help prevent the number of queries you have to address. :)
+
+\hypertarget{sample-query-responses}{%
+\subsubsection{Sample Query Responses}\label{sample-query-responses}}
+
+Below are guidelines for how to email students about their queries. Please adjust as needed based on the situation.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{general-query-response}{%
+\paragraph{General Query Response}\label{general-query-response}}
+
+\textbf{Subject:} Follow-Up on Your Benchmark Query
+
+Hi {[}Student{]},
+
+Thank you for submitting your query regarding the following question:\\
+\emph{Copy and paste the question stem.}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Correct Answer:} {[}Correct answer to the question{]}\\
+\item
+  \textbf{Your Answer:} {[}Answer selected by the student{]}
+\end{itemize}
+
+\textbf{Your Rationale:}\\
+\emph{Copy and paste the student's rationale here.}
+
+\textbf{Response:}\\
+\emph{Provide a detailed explanation of why the correct answer is correct and why the student's answer is not correct.}
+
+I hope this explanation clarifies any confusion. If you have additional questions, please don't hesitate to attend office hours for further support!
+
+Best,\\
+PSY301 TA Team
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{query-submitted-same-day-or-after-1-week}{%
+\paragraph{Query Submitted Same Day or After 1 Week}\label{query-submitted-same-day-or-after-1-week}}
+
+\textbf{Subject:} Query Policy Reminder
+
+Hi {[}Student{]},
+
+I see that you've submitted a query for Benchmark/RAS {[}number{]}. Per the syllabus, queries must adhere to specific time frames:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Queries must be submitted \textbf{within one week} from when the Benchmark (or RAS) was taken.\\
+\item
+  Queries \textbf{cannot be submitted on the same day} the Benchmark was given. This policy allows students to review the material thoroughly before seeking clarification.
+\end{enumerate}
+
+You submitted your query on {[}DATE{]}, which falls outside the acceptable window for Benchmark/RAS {[}number{]}. As such, we are unable to address your query at this time. Please refer to the syllabus for more details about this policy and keep it in mind moving forward.
+
+If you have additional questions or need further clarification, please let us know.
+
+Best,\\
+PSY301 TA Team
+
+\hypertarget{emails}{%
+\section{Emails}\label{emails}}
+
+The \textbf{``\href{mailto:OnlinePSY301TAs@austin.utexas.edu}{\nolinkurl{OnlinePSY301TAs@austin.utexas.edu}}''} email is the central point of contact for all student inquiries. It is essential to manage this account effectively to ensure students receive timely responses and support.
+
+What you'll find in this chapter:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{setting-up-your-account}{Setting Up Your Account}
+\item
+  \protect\hyperlink{managing-the-class-email-account}{Managing the Class Email Account}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{responsibilities}{Responsibilities}
+  \item
+    \protect\hyperlink{general-guidelines-for-responding-to-emails}{General Guidelines for Responding to Emails}
+  \item
+    \protect\hyperlink{medical-and-family-emergencies}{Medical and Family Emergencies}
+  \end{itemize}
+\item
+  \protect\hyperlink{common-student-email-responses}{Common Student Email Responses}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{general-questions}{General Questions that Can be Answered Via the Syllabus or FAQ Page}
+  \item
+    \protect\hyperlink{missed-benchmarks}{Missed Benchmarks/RAS for Technical, WIFI Issues, Absences, etc.}
+  \item
+    \protect\hyperlink{didnt-receive-credit}{Didn't Receive Credit for RAS for Incorrect Answer}
+  \item
+    \protect\hyperlink{study-strategies}{Study Strategies for Benchmarks}
+  \item
+    \protect\hyperlink{benchmarks-ras-dropped}{Benchmarks/RAS 2-5 Being Dropped}
+  \item
+    \protect\hyperlink{sona-research}{SONA Research Requirement Questions}
+  \item
+    \protect\hyperlink{extra-credit}{Extra Credit}
+  \item
+    \protect\hyperlink{same-day-query}{Same Day or After 1 Week Query}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{setting-up-your-account}{%
+\subsection{Setting Up Your Account}\label{setting-up-your-account}}
+
+The first stage in email setup is to create an Office 365 email account. We will share your information with our LAITS project manager, Samantha Meyer (\href{mailto:samantha.meyer@austin.utexas.edu}{\nolinkurl{samantha.meyer@austin.utexas.edu}}) who will set you up on the \textbf{\href{mailto:OnlinePSY301TAs@austin.utexas.edu}{\nolinkurl{OnlinePSY301TAs@austin.utexas.edu}}} email. They will then send you an email with instructions on how to login.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{If you entered UT in Fall 2021 or later}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    An \texttt{@my.utexas.edu} account was automatically created for you.
+  \end{itemize}
+\end{enumerate}
+
+You can check whether you already have an Office 365 account by logging in \href{https://www.austin.utexas.edu/Office365Management/}{here}. Once you have your Office 365 email account, please provide it to your project manager, who will add you to the shared TA email account.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{(OPTIONAL)}: You may want to set up a mail forward on your new personal \texttt{@austin.utexas.edu} or \texttt{@my.utexas.edu} account if you are only creating it to access the shared TA email account. That way, any emails that find their way to this account will be auto-forwarded to an email account you normally use. \href{https://ut.service-now.com/sp?id=kb_article\&number=KB0011657}{Instructions for email forwarding can be found here}.
+\item
+  \textbf{NOTE}: It will probably take \textbf{2--4 hours} to access the shared email after you create your individual email address. You will likely get a ``Sorry something went wrong'' message until then.
+\end{itemize}
+
+Once your project manager confirms that you have been added to the shared TA account, you will need to access it. To do this:
+1. Go to \href{https://office365.austin.utexas.edu}{Office 365}.
+2. Follow the link for the Outlook Web App.
+3. Log in using your UT EID and password.
+4. The inbox for your new email account should load. In the top right corner, click on the person icon and select \textbf{``Open another mailbox\ldots{}''}.
+5. Enter the TA email address. This will vary by class (e.g., the email for PSY301 is \texttt{onlinepsy301ta@austin.utexas.edu}). The first time, type the full name and select search. After opening the TA email once, the search will auto-complete in the future.
+
+\hypertarget{bookmarking-the-ta-inbox}{%
+\subsubsection{Bookmarking the TA Inbox}\label{bookmarking-the-ta-inbox}}
+
+Once you have loaded the TA inbox, you can bookmark that page directly. When you follow your bookmark in the future, you will be prompted to enter your EID and password to log in, skipping intermediate steps with your personal Exchange account.
+
+\hypertarget{adding-the-ta-inbox-as-a-favorite}{%
+\subsubsection{Adding the TA Inbox as a Favorite}\label{adding-the-ta-inbox-as-a-favorite}}
+
+Alternatively, you can add the TA folder as a ``favorite'':
+1. Sign in to your account in the Outlook Web App.
+2. Right-click your primary mailbox in the left navigation pane and choose \textbf{Add shared folder}.
+3. In the dialog box, type the shared mailbox name or email address and click \textbf{Add}.
+4. The shared mailbox will now appear in your folder list, where you can expand or collapse it as needed.
+
+\href{https://utexas.app.box.com/file/455642023256?s=el16kugfwchp7ymkne5fenl1qaye9kpo}{Watch this screencast} for a demonstration.
+
+At the end of the semester, you will lose access to the shared TA email account, but not your personal Office 365 account.z
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{managing-the-class-email-account}{%
+\subsection{Managing the Class Email Account}\label{managing-the-class-email-account}}
+
+\hypertarget{responsibilities}{%
+\subsubsection{Responsibilities}\label{responsibilities}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Responding to Student Concerns}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Address student questions about grading, syllabus details, and benchmark (BM) queries.
+  \item
+    Redirect emails to the appropriate individual when necessary.
+  \item
+    As a general note, don't be afraid to direct students to the syllabus when the answer to their question (or more details on their question) is there\ldots.it's part of the education for them to seek out the information they need\ldots!
+  \end{itemize}
+\item
+  \textbf{Email Monitoring Schedule}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The schedule for checking emails can be found \href{https://docs.google.com/spreadsheets/d/1AXT7fqusvnTBZrsaOuhRgZOQ4EmFNt0YmXQNxuAznls/edit?usp=sharing}{here}. If you notice someone is not checking the email on their assigned day, please letTia Kelley or RAZ know.
+  \end{itemize}
+\item
+  \textbf{Handling Escalations}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Any email that goes beyond simple queries (e.g., rude or frustrated student messages, grading problems or errors) should be escalated to the Lead TA, Tia Kelley.
+  \item
+    Benchmark Queries:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Queries are for students arguing to get a point back.
+    \item
+      If the discussion stops making meaningful progress, direct the student to office hours to discuss the specific question.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Notifying BM Writers}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Notify the BM writer only if a student has submitted a \protect\hyperlink{benchmark-queries}{Query} about their question.
+  \end{itemize}
+\item
+  \textbf{Redirecting Students}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    For simple grading or syllabus-related questions, guide students to the syllabus or FAQ page first.
+  \item
+    For Benchmark-related questions that go unresolved, encourage students to attend \textbf{office hours} for further discussion.
+  \end{itemize}
+\item
+  \textbf{Pinning Unresolved Emails}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If there is an email that comes in on your day to monitor the group email, but it has not been resolved, please \emph{pin} the email. The next person monitoring the emails will continue responding if need be. (Ex. An email received on Monday does not stay with the person who initially received it. The next TA can address it if there is follow up on another day.)
+  \end{itemize}
+\end{itemize}
+
+As a TA, you'll receive a variety of student emails throughout the semester. Its important to respond politely and professionally, while adhering to the course guidelines. Below are some general tips and response templates to help you manage common inquiries.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{general-guidelines-for-responding-to-emails}{%
+\paragraph{General Guidelines for Responding to Emails}\label{general-guidelines-for-responding-to-emails}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Be Polite}: Maintain a respectful and friendly tone, even if the student is upset or frustrated.
+\item
+  \textbf{Ask Clarifying Questions}: If the email is unclear, ask for more details to ensure you understand the issue before responding.
+\item
+  \textbf{Sign email as ``PSY 301 TA Team''}: This keeps it consistent and allows for others to respond to email follow ups.
+\item
+  \textbf{Answer Content-Related Questions}: Focus on answering questions related to course material, general grading policies, or assignments\ldots{} and don't be afraid to direct students to the syllabus for the information they're looking for, if it's there.
+\item
+  \textbf{Refer to the Lead TA}: Escalate specific grading issues or emails where the student is upset/rude to the Lead TA.
+\item
+  \textbf{Use Templates}: Refer to the provided templates for common student questions to ensure consistent messaging.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{medical-and-family-emergencies}{%
+\paragraph{Medical and Family Emergencies}\label{medical-and-family-emergencies}}
+
+\begin{itemize}
+\tightlist
+\item
+  If/when a student asks for a makeup/extension for some sort of medical or personal situation, we say no as a general rule because we have the 4 dropped benchmarks and RASs. Your first response should typically be to remind the student that any missed assignments or poor performance due to their situation can towards their 4 drops. If there is push back or it seems like an exceptional situations, we may make an exception. In such cases, we direct them to UT's \href{https://deanofstudents.utexas.edu/sos/index.php}{Student Outreach and Support} for them to submit documents and such related to the incident.\\
+\item
+  \textbf{Student Outreach and Support} will review their documents and if they feel it is appropriate they will send out a letter on the student's behalf notifying all their professors that the student was out for a certain amount of time due to some emergency. This also helps them out in the long run because if they had an issue that affected their performance in this class, it likely affected their other classes, too. It is up to the professor's discretion if they will offer makeups and such, but it helps weed out some students who just felt a little tired or off rather than say an appendicitis!\\
+\item
+  \textbf{Example response}: ``Dear \_\_\_\_, We are sorry to hear about your recent hardship. In order for us to make an exception, we ask that you reach out to Student Outreach and Support, and they will verify your situation and send an email out on your behalf to your professor. This enables us to make the exception, but it also lets professors in your other classes know about the situation. All the best,''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{common-student-email-responses}{%
+\subsection{Common Student Email Responses}\label{common-student-email-responses}}
+
+Below are some common email scenarios and response templates you can use. Feel free to adapt them as needed. Let the Lead TA know if there is a question you are getting a lot that is not on this list so we it can added it here!
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{general-questions-that-can-be-answered-via-syllabus-or-faq-page}{%
+\subsubsection{General Questions that Can be Answered Via Syllabus or FAQ Page}\label{general-questions-that-can-be-answered-via-syllabus-or-faq-page}}
+
+Hi {[}student{]},
+
+Please refer to the syllabus under {[}section name{]} for an answer to this question. If you still have questions after referring to the syllabus, please feel free to reach back out!
+
+Best,
+Psy 301 TA Team
+
+Hi {[}student{]},
+
+Please refer to the FAQ page. Question {[}question number{]} answers this question. If you still have questions after referring to this page, please feel free to reach back out!
+
+Best,
+Psy 301 TA Team
+
+\hypertarget{didnt-receive-credit-for-ras-for-incorrect-answer}{%
+\subsubsection{Didn't Receive Credit for RAS for Incorrect Answer}\label{didnt-receive-credit-for-ras-for-incorrect-answer}}
+
+Hi {[}student{]},
+
+Thanks for reaching out. The RAS quizzes are not completion grades. You must answer the question correctly to receive credit. If you received a 0/1 it is likely because you did not select the correct answer. To review the correct answer, you can click on the assignment from the ``Assignments'' tab on Canvas.
+
+Best,
+PSY 301 TA Team
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{study-strategies-for-benchmarks}{%
+\subsubsection{Study Strategies for Benchmarks:}\label{study-strategies-for-benchmarks}}
+
+Hi {[}student{]},
+
+We're sorry to hear that you're feeling discouraged, but we're happy that you reached out to us for help!
+
+Firstly, have you looked at the study tips section of the syllabus? There are a lot of good tips in there!
+One of the biggest tips we always give students when they ask what they can do is to come up with your own benchmark questions for each topic we cover! So, first, you would identify the key concepts of the lecture and associated readings. Some hints as to what these could be with lecture would be checking the outline or identifying concepts that at least get around 3-5 minutes of focus during class. For the readings, these concepts may have at least 2-3 paragraphs of overall discussion. Then, once you have your key concepts, identify the more important ideas about each one. Are there different categories within these concepts that can be distinguished from one another? What might these ideas look like in my daily life or life in general? What are some ways I could misunderstand these concepts? What are some analogies I can come up with to other things I already understand? Finally, after identifying the main points for each key concept and asking yourself questions like these, try writing your own benchmark questions! This kind of strategy will help you develop the kind of application knowledge that we test with the benchmarks!
+
+One of the other things you could do would be to go to office hours! You can bring questions to us to get your misunderstandings remedied, or you can come to check that you've identified the key concepts of each topic. We can also discuss examples of these ideas in everyday life together! Office hours are a great way to collaboratively build your understanding.
+
+Finally, we suggest forming a small study group! Maybe reach out to a few of your fellow classmates, and study in these ways together! Collaborative studying is beneficial in a lot of ways. Other students can likely explain a misunderstanding you have, and by explaining your understanding to other students, you practice recalling and applying your knowledge. Additionally, by explaining ideas to other students, you can identify the topics you may need to study in more detail.
+
+We hope that you can apply some, or all, of these tips to your study strategies! Please reach out with any further questions or concerns. Remember, your intelligence grows and changes with practice and effort. You can most definitely be successful in this class!
+
+Best,
+PSY 301 TA Team
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{benchmarksras-2-5-being-dropped}{%
+\subsubsection{Benchmarks/RAS 2-5 Being Dropped}\label{benchmarksras-2-5-being-dropped}}
+
+Hi {[}student{]},
+
+The Canvas system automatically drops your 4 lowest benchmarks and RAS quizzes. This means that benchmarks and RAS quizzes 2 - 5 will show as a drop until you take assignments beyond those first 4. Once we get to benchmark 6 and beyond, Canvas will start computing your grade based on your highest scores while dropping your lowest 4 scores. So whatever is showing as a drop now will be updated as more grades come in. I hope this helps.
+
+Best,
+Psy 301 TA Team
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{sona-research-requirement-questions}{%
+\subsubsection{SONA Research Requirement Questions}\label{sona-research-requirement-questions}}
+
+Research Requirement: SONA system/studies, credit hours, etc. (note: we do answer question about the research paper if students choose that option)
+
+Hi {[}student{]},
+
+Unfortunately, we don't have any oversight regarding SONA or the experimental requirement. Instead, you can send your question to the Research Coordinator at \href{mailto:psyresearch@austin.utexas.edu}{\nolinkurl{psyresearch@austin.utexas.edu}}.
+
+If you have any other questions, feel free to reach out.
+
+Best,
+PSY 301 TA Team
+
+\hypertarget{same-day-or-after-1-week-query}{%
+\subsubsection{Same Day or After 1 Week Query}\label{same-day-or-after-1-week-query}}
+
+Hi {[}student{]},
+
+I see that you have submitted a query for benchmark/RAS {[}number of BM or RAS{]}. Per the syllabus, these queries must be submitted within a certain window. You have one week from the time the Benchmark (or RAS) was taken to ask us about that question. This is in consideration and respect for the TAs' time and to better facilitate your learning. Also, queries should not be submitted on the same day that the benchmark was given. We encourage students to use the time between when the benchmark was given and the following day to review the material and try to understand the reasoning behind the correct answer before contacting our team. If you still have questions after that period you are then welcome to submit a query starting the day after the benchmark was given and within the week.
+
+You submitted your query on {[}date student submitted{]} which was not within the acceptable window for benchmark/RAS {[}number of BM or RAS{]}. Therefore, we are unable to address your query at this time. Please refer to the syllabus for more details about this policy and keep this in mind for future reference.
+
+Let us know if you have any questions.
+
+Best,
+Psy 301 TA Team
+
+\hypertarget{office-hours}{%
+\section{Office Hours}\label{office-hours}}
+
+Office hours are an essential opportunity for undergraduate TAs to support students in mastering course material, building good study habits, and providing clarification about benchmark questions. As a TA, in addition to providing content clarity, one of your main responsibilities is to foster an approachable and supportive atmosphere where students feel encouraged to ask questions and seek help.
+
+What you'll find in this chapter:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{how-office-hours-work}{How Office Hours Work}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{office-hours-in-dr-hardens-lab-space}{Office Hours in Dr.~Harden's Lab Space}\\
+  \end{itemize}
+\item
+  \protect\hyperlink{helping-students-approach-benchmark-questions}{Helping Students Approach Benchmark Questions}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{key-strategies-for-breaking-down-questions}{Key Strategies for Breaking Down Questions}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \protect\hyperlink{focus-on-the-stem}{Focus on the Stem}\\
+    \item
+      \protect\hyperlink{analyze-the-answer-choices}{Analyze the Answer Choices}\\
+    \item
+      \protect\hyperlink{highlight-common-question-structures}{Highlight Common Question Structures}\\
+    \end{itemize}
+  \end{itemize}
+\item
+  \protect\hyperlink{guiding-students-when-theyre-stuck}{Guiding Students When They're Stuck}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{ask-questions-to-understand-their-challenges}{Ask Questions to Understand Their Challenges}\\
+  \item
+    \protect\hyperlink{help-them-explore-how-they-study}{Help Them Explore How They Study}\\
+  \item
+    \protect\hyperlink{encourage-active-engagement-with-the-material}{Encourage Active Engagement with the Material}\\
+  \item
+    \protect\hyperlink{help-them-create-an-effective-study-environment}{Help Them Create an Effective Study Environment}\\
+  \item
+    \protect\hyperlink{reassure-and-follow-up}{Reassure and Follow Up}
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{how-office-hours-work}{%
+\subsection{How Office Hours Work}\label{how-office-hours-work}}
+
+During office hours, you will be responsible for answering student questions about course content. This might include clarifying lecture material, explaining concepts they find challenging, or reviewing specific benchmark questions they got wrong. To assist with benchmark-related questions, you could look in the Benchmark Writing folder where you can refer to the specific \href{https://drive.google.com/drive/folders/1TBohqmI-Khge4n4NfeWAjVi5rFwVx2D6?usp=drive_link}{\textbf{Benchmark Writing Spreadsheet}} the question is related to. Looking at the \textbf{Source Details} column, which includes key quotes or information about why a particular answer is correct, can be particularly helpful when you are not the author of the question. ;)
+
+In addition to addressing content-related questions, students may come to you seeking advice on how to study more effectively or approach benchmark questions critically. Encourage them to think deeply about the logic of the questions and to focus on understanding the material rather than memorizing answers -- because as you know, we aren't testing rote memorizing of key term. Use examples from the benchmarks to demonstrate how to dissect questions and eliminate distractors.
+
+Sometimes, students may require help beyond just understanding content. For example, they may need assistance improving their time management, organizing their notes, or developing strategies to better retain information from lectures and readings. Share some of your own strategies that have helped you succeed!
+
+\hypertarget{zoom-office-hours}{%
+\subsubsection{Zoom Office Hours}\label{zoom-office-hours}}
+
+Create your own Zoom office hours within the Canvas by clicking on the Zoom page, click the Schedule a New Meeting button for one class and input your preferred settings. Set up the meeting recurrently for your office times.
+
+\hypertarget{fall-only}{%
+\paragraph{Fall Only}\label{fall-only}}
+
+Instructions for how to get the Zoom meeting to be the same in both Canvas pages:
+
+\begin{itemize}
+\item
+  On the Zoom page, click the Schedule a New Meeting button for one class and input your preferred settings. Set up the meeting recurrently for your office times as usual.
+\item
+  Copy the meeting ID
+\item
+  Switch to the other class's Zoom page and click the more options (3 dots icon on the right), then import meeting
+\item
+  Paste the meeting ID
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{office-hours-in-dr-hardens-lab-space}{%
+\subsubsection*{Office Hours in Dr.~Harden's Lab Space}\label{office-hours-in-dr-hardens-lab-space}}
+\addcontentsline{toc}{subsubsection}{Office Hours in Dr.~Harden's Lab Space}
+
+As a TA, you have the option to hold your office hours in Dr.~Harden's lab space located in the Children's Research Center in the SEA building at the corner of Dean Keeton and Speedway at the University of Texas. The entrance to the Children's Research Center is on the west side of Speedway, just north of Dean Keeton. This is a great opportunity to create a comfortable and accessible environment for students to drop by for support. We will send you instructions on how to access the lab space via email. (Do not share access details!)
+
+In addition to using the space for office hours, we encourage you to connect with your fellow TAs here. Whether you're working together, brainstorming ideas, or simply taking a break and hanging out, this space is available to support collaboration and community among the TA team. There will also be some drinks, snacks, and access to a coffee maker available to you all during normal business hours.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{helping-students-approach-benchmark-questions}{%
+\subsection{Helping Students Approach Benchmark Questions}\label{helping-students-approach-benchmark-questions}}
+
+Benchmark questions in this course are scenario-based and designed to assess students' ability to apply concepts to real-world situations. Unlike straightforward memorization or vocabulary questions, these require critical thinking and synthesis of lecture materials, readings, and logical reasoning. Below is a guide on how to teach students to effectively approach and analyze these types of questions during office hours.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{key-strategies-for-breaking-down-questions}{%
+\subsubsection*{Key Strategies for Breaking Down Questions}\label{key-strategies-for-breaking-down-questions}}
+\addcontentsline{toc}{subsubsection}{Key Strategies for Breaking Down Questions}
+
+\hypertarget{focus-on-the-stem}{%
+\paragraph*{1. Focus on the Stem}\label{focus-on-the-stem}}
+\addcontentsline{toc}{paragraph}{1. Focus on the Stem}
+
+\begin{itemize}
+\tightlist
+\item
+  Start by having the student carefully read the question stem.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{``What is this question asking you to figure out or apply?''}
+  \item
+    Encourage students to identify keywords or phrases that tie the scenario to specific lecture content or readings.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      For example, if the question mentions hormonal changes in adolescence, guide the student to recall relevant details from the ``Adolescence'' lecture about testosterone, estradiol, and DHEA.
+    \end{itemize}
+  \item
+    Connect the scenario to course material. Remind students that every question ties back to concepts discussed in lectures, readings, or videos. Ask them:
+  \item
+    \emph{``Which topic or section of the course does this scenario seem to fit with?''}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{analyze-the-answer-choices}{%
+\paragraph*{2. Analyze the Answer Choices}\label{analyze-the-answer-choices}}
+\addcontentsline{toc}{paragraph}{2. Analyze the Answer Choices}
+
+\begin{itemize}
+\tightlist
+\item
+  Teach students how to evaluate each answer choice systematically:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Eliminate options that are factually incorrect or irrelevant to the question.
+  \item
+    Look for choices that directly contradict course material.
+  \item
+    Identify subtle distractors designed to seem plausible but that don't fully address the scenario.
+  \end{itemize}
+\item
+  Encourage students to:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Write down why they're eliminating each choice.
+  \item
+    Compare the remaining options to ensure they address the full scope of the question stem.
+  \end{itemize}
+\item
+  Walk students through your thought process for approaching a problem:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{``Here's how I would think about this question\ldots{} First, I'd identify the key terms in the stem.''}
+  \item
+    \emph{``Next, I'd eliminate any answer choices that don't address those key terms.''}
+  \end{itemize}
+\item
+  Show them how you'd connect the question back to the lecture or reading material.
+\end{itemize}
+
+\hypertarget{highlight-common-question-structures}{%
+\paragraph*{3. Highlight Common Question Structures}\label{highlight-common-question-structures}}
+\addcontentsline{toc}{paragraph}{3. Highlight Common Question Structures}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Cause-and-Effect Relationships}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Many questions ask students to identify the cause of a scenario or explain an outcome. Encourage them to:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Focus on keywords in the stem that point to specific processes or concepts.
+    \item
+      Eliminate answers that don't logically connect to the described situation.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Applying Psychological Models}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Questions often require applying models or theories to a real-world scenario. Guide students to:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Identify the main principle or framework the question relates to (e.g., evolutionary models, developmental theories).
+    \item
+      Focus on how the example fits the model, rather than getting distracted by unrelated details.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Comparisons Between Groups}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Questions often involve comparing two groups or situations, such as cultural, biological, or developmental differences. Teach students to:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Look for key grouping terms like ``industrialized vs.~non-industrialized'' or ``adolescents vs.~adults.''
+    \item
+      Use lecture and reading materials to identify traits or patterns unique to each group.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{guiding-students-when-theyre-stuck}{%
+\subsection*{Guiding Students When They're Stuck}\label{guiding-students-when-theyre-stuck}}
+\addcontentsline{toc}{subsection}{Guiding Students When They're Stuck}
+
+When students are stuck on a concept, it's often not just the material that's the problem---they may be overwhelmed, unsure of where to start, or struggling to find the right way to study. As a uTA, your role is to help students break through these barriers by offering practical suggestions and guiding them toward effective learning strategies. Below is a guide to help you support students during office hours:
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{ask-questions-to-understand-their-challenges}{%
+\paragraph*{1. Ask Questions to Understand Their Challenges}\label{ask-questions-to-understand-their-challenges}}
+\addcontentsline{toc}{paragraph}{1. Ask Questions to Understand Their Challenges}
+
+\begin{itemize}
+\tightlist
+\item
+  Start by asking open-ended questions like:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{``Can you explain what part of this concept feels unclear?''}
+  \item
+    \emph{``What have you tried so far to understand this?''}
+  \item
+    \emph{``Can you show me some examples of where you're getting stuck?''} (Benchmark questions)
+  \end{itemize}
+\item
+  By listening to their responses, you can better identify whether the issue is with their understanding of the material, their approach to studying, or something else entirely.
+\end{itemize}
+
+\hypertarget{help-them-explore-how-they-study}{%
+\paragraph*{2. Help Them Explore How They Study}\label{help-them-explore-how-they-study}}
+\addcontentsline{toc}{paragraph}{2. Help Them Explore How They Study}
+
+\begin{itemize}
+\tightlist
+\item
+  Many students struggle because they haven't found the right study methods for their learning style. Encourage them to reflect on their habits:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{``How do you typically prepare for benchmarks or assignments?''}
+  \end{itemize}
+\item
+  Share common strategies that might work for them, such as:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Read a section of the readings and write a brief sentence summarizing what you think are the key points.
+  \item
+    Review missed benchmark questions and encourage them to try coming up with new questions/scenarios we might ask them.
+  \item
+    Creating visual aids like diagrams or flowcharts.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{encourage-active-engagement-with-the-material}{%
+\paragraph*{3. Encourage Active Engagement with the Material}\label{encourage-active-engagement-with-the-material}}
+\addcontentsline{toc}{paragraph}{3. Encourage Active Engagement with the Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Suggest techniques that involve active learning:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Explain the Material Aloud}: Encourage students to explain the concept to someone else---or even to themselves. This forces them to organize their thoughts and identify gaps in understanding.
+  \item
+    \textbf{Teach a Buddy}: If they have a study buddy, they can take turns teaching each other parts of the material. Teaching is one of the most effective ways to learn. Try to encourage them to reach out to someone from the class! Even though there are \textasciitilde1000 students, many of them, sadly, never interact with one another\ldots{}\\
+  \item
+    \textbf{Write It Out}: Have them summarize the concept in their own words, either in a paragraph or as a series of steps.
+  \item
+    \textbf{Ask Them to Explain the Concept to You}: If they say, \emph{``I get it, but I can't say it,''} that's often a sign they don't fully understand it yet. This will also help you identify where their confusion lies.
+  \item
+    \textbf{Create a new example}: Ask them to come up with their own example, maybe one similar to the question they got wrong, and walk through it with them. (Or help them form it.)
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{help-them-create-an-effective-study-environment}{%
+\paragraph*{4. Help Them Create an Effective Study Environment}\label{help-them-create-an-effective-study-environment}}
+\addcontentsline{toc}{paragraph}{4. Help Them Create an Effective Study Environment}
+
+\begin{itemize}
+\tightlist
+\item
+  A good study environment can make a big difference. Share these tips:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Set Up a Dedicated Study Space}: A quiet, organized area free of distractions can help them focus better.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Suggest places on campus like the PCL, Life Sciences Library (in the Tower), etc.
+    \item
+      If at home, set up a space, light a candle, spray a nice smell, get a nice beverage to sip on. Make it a welcoming place to study.
+    \end{itemize}
+  \item
+    \textbf{Establish a Study Ritual}: Encourage them to study at the same time each day and start with a small routine, like reviewing their notes for 10 minutes or writing down a to-do list.
+  \item
+    \textbf{Minimize Distractions}: Suggest silencing their phone or using apps that block distracting websites while they study and setting a timer.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      For example: Read this section or study for 20 minutes before taking a 5 minute stretch (or scrolling) break.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{reassure-and-follow-up}{%
+\paragraph*{5. Reassure and Follow Up}\label{reassure-and-follow-up}}
+\addcontentsline{toc}{paragraph}{5. Reassure and Follow Up}
+
+\begin{itemize}
+\tightlist
+\item
+  Normalize the idea that it's okay to struggle---it's part of the learning process:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{``It's great that you're asking for help. That shows you're putting in the effort.''}
+  \end{itemize}
+\item
+  End the session by asking the student what they plan to do next:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{``What's your next step for reviewing this material?''}
+  \item
+    \emph{``Do you feel ready to try this question again on your own?''}
+  \end{itemize}
+\item
+  Encourage them to come back to office hours if they're still struggling or need more guidance.
+\end{itemize}
+
+By using these strategies, you can help students not only overcome their immediate challenges but also build skills and habits that will support their learning long after the course is over!
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{reflection-portfolios}{%
+\section{Reflection Portfolios}\label{reflection-portfolios}}
+
+All students are required to participate in five hours of experiments in order to learn how psychological research is conducted. Failure to complete the requirement will result in receiving an Incomplete in the course which, if not completed by the end of the following long semester, will revert to an F in the course. As described on the \href{https://liberalarts.utexas.edu/psychology/undergraduate-program/research-opportunities/psychology-301/}{Experimental Webpage}, students can complete a reflection paper portfolio in lieu of participating in experiments. If they do not complete either the experimental requirement or the portfolio, their grade in psychology will be blocked and they will face a bureaucratic nightmare of epic proportions trying to deal with it in future semesters.
+
+We do not handle issues that will come up regarding participation in experiments, getting credit, or any other aspect of the experimental requirement system.
+
+\textbf{Send all questions regarding these topics to the Research Coordinator at \href{mailto:psyresearch@austin.utexas.edu}{\nolinkurl{psyresearch@austin.utexas.edu}}}
+
+What you'll find in this chapter:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{reflection-portfolio-overview}{Reflection Portfolio Overview}\\
+\item
+  \protect\hyperlink{reflection-portfolio-guidelines-and-grading-procedures}{Reflection Portfolio Guidelines and Grading Procedures}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{submission-and-grading-process}{Submission and Grading Process}\\
+  \end{itemize}
+\item
+  \protect\hyperlink{canvas-navigation}{Canvas Navigation}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{important-dates}{Important Dates}\\
+  \end{itemize}
+\item
+  \protect\hyperlink{email-template-for-students}{Email Template for Students}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{email-template-for-students-who-pass}{Email Template for Students Who Pass}\\
+  \item
+    \protect\hyperlink{email-template-for-students-who-need-revisions}{Email Template for Students Who Need Revisions}\\
+  \end{itemize}
+\item
+  \protect\hyperlink{reflection-questions-for-each-assignment}{Reflection Questions for Each Assignment}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{assignment-1-nine-myths-about-psychology}{Assignment 1: Nine Myths About Psychology}\\
+  \item
+    \protect\hyperlink{assignment-2-big-five-personality-inventory}{Assignment 2: Big Five Personality Inventory}\\
+  \item
+    \protect\hyperlink{assignment-3-superior-autobiographical-memory-sam}{Assignment 3: Superior Autobiographical Memory (SAM)}\\
+  \item
+    \protect\hyperlink{assignment-4-racism-and-health}{Assignment 4: Racism and Health}\\
+  \item
+    \protect\hyperlink{assignment-5-romanian-orphans}{Assignment 5: Romanian Orphans}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{reflection-portfolio-overview}{%
+\subsection{Reflection Portfolio Overview}\label{reflection-portfolio-overview}}
+
+The reflection portfolio serves two purposes. First, it provides students an alternative to completing five credits of research studies. Second, it allows students to more deeply explore various important topics in the field of psychology.
+
+To complete the portfolio, students will take part in five different activities. These activities include:
+
+\begin{itemize}
+\tightlist
+\item
+  explore a TED talk about common myths in psychology
+\item
+  take a Big Five Personality Inventory
+\item
+  watch a documentary about people with unusually extensive autobiographical memory
+\item
+  view a TED talk about stress and health outcomes
+\item
+  learn more early childhood experiences and their impact on subsequent development
+\end{itemize}
+
+After each activity, students will write a two-page reflection (Times New Roman, 12-point font, double-spaced) about what they've learned. The total portfolio length will be \textbf{10 pages}. More information about this assignment is available in the Canvas Assignments section for this course.
+
+\hypertarget{reflection-portfolio-guidelines-and-grading-procedures}{%
+\subsection{Reflection Portfolio Guidelines and Grading Procedures}\label{reflection-portfolio-guidelines-and-grading-procedures}}
+
+\hypertarget{submission-and-grading-process}{%
+\subsubsection{Submission and Grading Process}\label{submission-and-grading-process}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Submission Tracking}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Portfolios can begin to be graded as soon as they are submitted.\\
+  \item
+    The lead TA will tag the TA assigned to each portfolio in the \href{https://docs.google.com/spreadsheets/d/1tOP3nKaxPEMGZprCt2eqzTt-4ICCyVoQgQQBqT2EKrE/edit?gid=1778739291\#gid=1778739291}{reflection portfolio grading spreadsheet} once the paper is turned in.
+  \end{itemize}
+\item
+  \textbf{Grading Guidelines} (Pass/Fail):
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Formatting Requirements}: Did they follow the specified format?
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \textbf{Length}:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Each reflection must be at least \textbf{2 full pages}.\\
+      \item
+        The total portfolio must be at least \textbf{10 pages}.\\
+      \end{itemize}
+    \item
+      \textbf{Font and Spacing}:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Times New Roman, 12-point font, double-spaced.\\
+      \item
+        Do not include extra spacing throughout the reflection.\\
+      \end{itemize}
+    \item
+      \textbf{Submission}:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Submit as a single \textbf{Word document (.docx)}.\\
+      \item
+        Name and EID at the top of the first page.\\
+      \end{itemize}
+    \item
+      \textbf{Labelled each section} as follows:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Common Myths\\
+      \item
+        Personality Test\\
+      \item
+        Memory Documentary\\
+      \item
+        Health Outcomes\\
+      \item
+        Romanian Orphans\\
+      \end{itemize}
+    \end{itemize}
+  \item
+    \textbf{Answered Questions}:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Did they address the required questions for each reflection?
+
+      \begin{itemize}
+      \tightlist
+      \item
+        The reflection questions can be found below or by clicking on the Reflection Portfolio assignment in Canvas.\\
+      \item
+        As long as they briefly address the question, the portfolio should meet the criteria. \textbf{Strict quality control is not necessary.}\\
+      \end{itemize}
+    \item
+      Confirm that the student connects their reflections to the \textbf{PSY 301 development lectures and readings.}
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Example question:
+
+        \begin{itemize}
+        \tightlist
+        \item
+          \emph{``How does this new knowledge build on what you learned in PSY 301?''}\\
+        \end{itemize}
+      \item
+        \textbf{Ensure reflections reference course material to discourage use of AI tools like ChatGPT.}
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Turnitin Score}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Acceptable scores are usually \textbf{\textless30\%}.\\
+  \item
+    If a score exceeds 30\%, notify lead TA, who will determine if the paper is plagiarized.\\
+  \item
+    The Turnitin percentage reflects the similarity of the paper to other sources.
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{canvas-navigation}{%
+\subsubsection{Canvas Navigation}\label{canvas-navigation}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Navigate to \textbf{Assignments} in Canvas:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Go to the assignment titled \textbf{``Optional Reflection Paper Portfolio to Meet Research Requirement.''}
+  \item
+    Select \textbf{SpeedGrader} in the top right corner of the page.
+  \end{itemize}
+\item
+  Locate the Submission:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Use the drop-down menu to find the student assigned to you.\\
+  \item
+    Only students who have submitted will appear in the list.\\
+  \item
+    Click on their name to view the submission.
+  \end{itemize}
+\item
+  Check the Turnitin Score:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The score appears as a percentage under \textbf{Submitted Files} on the right.\\
+  \item
+    Scores are highlighted in \textbf{green, yellow, or red.}\\
+  \item
+    Click the percentage for a detailed Turnitin report if needed. Notify lead TA if the score is \textgreater30\%.
+  \end{itemize}
+\item
+  Pass/Fail Decision:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Use the \textbf{Grading Guidelines} above to decide if the student passes:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \textbf{Pass}: Mark the \href{https://docs.google.com/spreadsheets/d/1tOP3nKaxPEMGZprCt2eqzTt-4ICCyVoQgQQBqT2EKrE/edit?gid=1778739291\#gid=1778739291}{reflection portfolio grading spreadsheet} as complete. Note on the spreadsheet that an email was sent.
+    \item
+      On Canvas, mark their grade as ``Complete''. Note on the spreadsheet that Canvas was updated.
+    \item
+      \textbf{Fail}: If the portfolio does not meet the requirements:
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Email the student with feedback and instructions for revisions.\\
+      \item
+        Summarize the feedback in the \href{https://docs.google.com/spreadsheets/d/1tOP3nKaxPEMGZprCt2eqzTt-4ICCyVoQgQQBqT2EKrE/edit?gid=1778739291\#gid=1778739291}{reflection portfolio grading spreadsheet}\\
+      \item
+        Set a deadline for revisions (suggested: 48--72 hours).\\
+      \item
+        No need to update Canvas until they Pass.
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\item
+  Revision Deadlines:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Student revisions are due by \textbf{Dec 11th, 2025, 11:59pm}.
+  \item
+    TA regrading of revisions are due by \textbf{Dec 13th, 2025, 11:59}.
+  \end{itemize}
+\item
+  Escalation for Non-Compliance:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If a student does not submit revisions or respond in time, notify the lead TA, who will consult with course coordinator to make a final Pass/Fail decision.\\
+  \item
+    Use Canvas email to send revision feedback in case students miss other communication channels.
+  \end{itemize}
+\item
+  Final Steps:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Highlight the spreadsheet row red for a failing portfolio after providing feedback if it still does not meet requirements.
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{important-dates}{%
+\subsubsection{Important Dates}\label{important-dates}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{SONA Deadline}: Dec 2nd at 5pm
+\item
+  \textbf{Reflection Due Dates for Students}: Dec 4th at 11:59pm
+\item
+  \textbf{TA Grading Deadline}: Dec 8th, 2025, 11:59pm
+\item
+  \textbf{Revision Deadline for Students}: Dec 11th, 2025, 11:59pm
+\item
+  \textbf{TA Grading of Revisions Deadline}: Dec 13th, 2025, 11:59
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{email-template-for-students}{%
+\subsection{Email Template for Students}\label{email-template-for-students}}
+
+You can use the templates below to email students if they pass/failed.
+
+\hypertarget{email-template-for-students-who-pass}{%
+\subsubsection{Email Template for Students Who Pass}\label{email-template-for-students-who-pass}}
+
+\textbf{Subject}: Research Requirement Officially Passed!
+
+\textbf{Email Body}:
+
+Hi {[}student{]},
+
+We hope all is well. We wanted to reach out and let you know that we have reviewed your reflection portfolio and it looks great. We thoroughly enjoyed reading your reflection. You are officially done with the research requirement!
+
+Have a great break!
+
+Best,\\
+Psy 301 TA Team
+
+\hypertarget{email-template-for-students-who-need-revisions}{%
+\subsubsection{Email Template for Students Who Need Revisions}\label{email-template-for-students-who-need-revisions}}
+
+\textbf{Subject}: Reflection Portfolio - Edits Needed!
+
+\textbf{Email Body}:
+Hi {[}student{]},
+
+We have reviewed your reflection portfolio. It is in pretty good shape! However, there are some changes that need to be made before you can officially pass the requirement. I've listed the needed changes below:
+
+\begin{itemize}
+\tightlist
+\item
+  Revision 1\\
+\item
+  Revision 2\\
+\item
+  Revision 3\\
+\item
+  Revision 4+
+\end{itemize}
+
+Please make these revisions by Dec 11th, 2025, 11:59pm to receive credit for the research requirement. You can send the revised version in this email thread. If you have any questions about these revisions, please let us know.
+
+Best,\\
+Psy 301 TA Team
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{reflection-questions-for-each-assignment}{%
+\subsection{Reflection Questions for Each Assignment}\label{reflection-questions-for-each-assignment}}
+
+\hypertarget{assignment-1-nine-myths-about-psychology}{%
+\subsubsection{Assignment 1: Nine Myths About Psychology}\label{assignment-1-nine-myths-about-psychology}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Purpose}: To debunk commonly held myths and misconceptions about psychology.\\
+\item
+  \textbf{Task}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Watch the \href{https://www.ted.com/talks/ben_ambridge_9_myths_about_psychology_debunked?subtitle=en}{TED Talk by Ben Ambridge}\\
+  \item
+    Write a reflection answering the following questions:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      What are three important pieces of information you learned in this talk?\\
+    \item
+      What did you find most surprising or meaningful? Why?\\
+    \item
+      Before watching this talk, had you believed in any of these myths? How has your thinking changed?\\
+    \item
+      How does this knowledge build on what you learned in PSY 301?
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{assignment-2-big-five-personality-inventory}{%
+\subsubsection{Assignment 2: Big Five Personality Inventory}\label{assignment-2-big-five-personality-inventory}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Purpose}: To understand the Big Five personality traits by taking the Big Five Inventory.\\
+\item
+  \textbf{Task}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Take the Big Five Inventory: \href{https://www.outofservice.com/bigfive/}{Big Five Inventory}.\\
+  \item
+    Have a friend or family member take it as well.\\
+  \item
+    Write a reflection answering the following questions:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      Do you agree with your scores? Why or why not?\\
+    \item
+      Were you surprised by your friend or family member's scores? Why?\\
+    \item
+      How did you and your friend/family member enjoy the assignment?\\
+    \item
+      Did your current mood or situation affect your scores?\\
+    \item
+      Do you feel your personality has changed over the last decade? If so, how?\\
+    \item
+      How does this knowledge build on what you learned in PSY 301?
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{assignment-3-superior-autobiographical-memory-sam}{%
+\subsubsection{Assignment 3: Superior Autobiographical Memory (SAM)}\label{assignment-3-superior-autobiographical-memory-sam}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Purpose}: To explore the phenomenon of \href{https://www.youtube.com/watch?v=2zTkBgHNsWM}{Superior Autobiographical Memory Part I} and
+  \href{https://www.youtube.com/watch?v=1th1fVIc8Vo}{Superior Autobiographical Memory Part II}
+\item
+  \textbf{Task}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Watch the documentary about SAM (both parts).\\
+  \item
+    Write a reflection answering the following questions:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      What did you find most fascinating? Why?\\
+    \item
+      How would you benefit or suffer if you had SAM?\\
+    \item
+      What does this documentary reveal about the benefits of forgetting certain details?\\
+    \item
+      How does this knowledge build on what you learned in PSY 301?
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{assignment-4-racism-and-health}{%
+\subsubsection{Assignment 4: Racism and Health}\label{assignment-4-racism-and-health}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Purpose}: To understand how racism can negatively impact health and longevity.\\
+\item
+  \textbf{Task}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Watch the \href{https://www.ted.com/talks/david_r_williams_how_racism_makes_us_sick?subtitle=en}{TED Talk by Dr.~David Williams}.\\
+  \item
+    Write a reflection answering the following questions:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      What are three important or surprising points from the talk?\\
+    \item
+      What are your general reflections on this talk?\\
+    \item
+      What steps would you recommend to improve the health of all groups in society?\\
+    \item
+      How does this knowledge build on what you learned in PSY 301?
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{assignment-5-romanian-orphans}{%
+\subsubsection{Assignment 5: Romanian Orphans}\label{assignment-5-romanian-orphans}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Purpose}: To examine the interaction of nature and nurture through the story of Romanian orphans.\\
+\item
+  \textbf{Task}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Read the article about the outcomes of \href{https://www.theatlantic.com/magazine/archive/2020/07/can-an-unloved-child-learn-to-love/612253/}{Romanian orphans}.\\
+  \item
+    Write a reflection answering the following questions:
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      What were four impactful aspects of the article? Why?\\
+    \item
+      What was your emotional response to the article?\\
+    \item
+      What have you learned about the nature-nurture debate and trauma's impact on development?\\
+    \item
+      What advice would you give to future parents, governments, or schools about the care of children?\\
+    \item
+      How does this knowledge build on what you learned in PSY 301?
+    \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{alternative-assignment}{%
+\subsubsection{Alternative Assignment}\label{alternative-assignment}}
+
+Some student may have issues with some of the above topics. If this occurs, we offer them the opportunity to do an alternative topic. See belwo
+
+Resilience
+
+\begin{itemize}
+\item
+  \textbf{Purpose}: In the field of developmental psychology, an important area of study focuses not just on the risks and negative outcomes of early adversity, but also on why and how some individuals are able to overcome those challenges and thrive. This assignment explores the science of resilience --- the psychological, biological, and social factors that help people adapt in the face of trauma, hardship, or chronic stress.
+\item
+  \textbf{Task}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Watch the TED talk: \href{https://www.ted.com/talks/lucy_hone_the_three_secrets_of_resilient_people}{``The Three Secrets of Resilient People'' by Dr.~Lucy Hone}
+  \end{itemize}
+\end{itemize}
+
+Write a 2-page reflection (double-spaced, 12-pt Times New Roman) addressing the following questions:
+
+What were three aspects of the talk that had the biggest impact on you? Why did these aspects resonate with you?
+
+What did you find most hopeful, surprising, or personally meaningful in the material?
+
+How do the ideas of nature and nurture show up in these explanations of resilience?
+
+What can be done --- at the level of individuals, families, schools, or governments --- to build resilience in young people?
+
+Connect this reflection to material covered in PSY 301 on development and the impact of life experiences. How does this new knowledge build on what you learned in PSY 301?
+
+\hypertarget{other-possible-ta-duties}{%
+\section{Other Possible TA Duties}\label{other-possible-ta-duties}}
+
+There are a few other TA duties that are assigned to 1-3 TAs a semester. TAs with additional duties will have other responsibilities reduced to keep the work distribution fair. So some TAs may have fewer benchmarks to review/write, may not have to monitor the PSY301 TA Team email, or may not have to hold office hours. Below are some of these additional duties.
+
+What you'll find in this chapter:
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hyperlink{hype-master-fall-only}{Hype Master (Fall Only)}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{hype-master-requirements}{Hype Master Requirements}
+  \item
+    \protect\hyperlink{example-email}{Example Email}
+  \item
+    \protect\hyperlink{standby-option}{Standby Option}
+  \end{itemize}
+\item
+  \protect\hyperlink{dashboard-runner}{Dashboard Runner}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hyperlink{dashboard-runner-requirements}{Dashboard Runner Requirements}
+  \item
+    \protect\hyperlink{dashboard-process}{Dashboard Process}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \protect\hyperlink{pre-class-dashboard-to-do-list}{Pre-Class Dashboard To-Do List}
+    \item
+      \protect\hyperlink{during-class-dashboard-to-do-list}{During-Class Dashboard To-Do List}
+    \item
+      \protect\hyperlink{post-class-dashboard-to-do-list}{Post-Class Dashboard To-Do List}
+    \end{itemize}
+  \item
+    \protect\hyperlink{gatekeeper-rules}{Gatekeeper Rules} - \protect\hyperlink{opening-gatekeepers}{Opening Gatekeepers} - \protect\hyperlink{gatekept-assignments}{Gatekept Assignments}
+  \item
+    \protect\hyperlink{slack-support}{Slack Support}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{hype-master-fall-only}{%
+\subsection{Hype Master (Fall Only)}\label{hype-master-fall-only}}
+
+Every Thursday in the Fall semester there are live recordings in the LAITS studio in MEZ. A live studio audience is recruited each class period. Having up to 25 students in the audience creates a more lively and enthusiastic experience, and it helps Sam and Paige. Our goal is to have the studio full each lecture. Students really enjoy getting to come visit their professors and see a real TV studio in action. This role is ideal for someone who enjoys interacting with other students - you may score high on extraversion, agreeableness, and conscientiousness. ;)
+
+The studio Hype Master is the person who:
+
+\begin{itemize}
+\tightlist
+\item
+  Welcomes and warms up the audience so they're excited about the class
+\item
+  Takes attendance by asking \emph{every} student to sign the sign-in sheet
+\end{itemize}
+
+\hypertarget{hype-master-requirements}{%
+\subsubsection{Hype Master Requirements}\label{hype-master-requirements}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Availability}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You must be available to come to the studio in \textbf{Mezes every Thursday in the Fall by 3:15 PM}.
+  \item
+    Stay for the full duration of the lecture until 4:45pm
+  \end{itemize}
+\item
+  \textbf{Responsibilities}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Log student attendance in the \href{https://docs.google.com/spreadsheets/d/1c99r7PZXdpGsK9qJI7nqpL0r9CE9qULdytwzmRFdW9o/edit?usp=sharing}{Studio Recruitment Log Sheet}
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Fill out how many students attended the live class total, and
+    \item
+      How many, if any, were came into the live recording by being on standby
+    \end{itemize}
+  \item
+    Warm up the audience so they're excited about the class and excited to be a fun, engaged audience
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Ask students engaging questions while waiting to be let into the studio
+
+      \begin{itemize}
+      \tightlist
+      \item
+        ``Anyone have any fun weekend plans? Are you going to the game? What classes are you taking?''
+      \item
+        ``What have you thought about the class so far? Are you excited to be in the studio? What made you want to come in?''
+      \item
+        ``What are some of your favorite topics in the class so far?''
+      \end{itemize}
+    \end{itemize}
+  \item
+    Pump up the students about how cool the studio and filming experience is
+  \item
+    Practice clapping and hyping with the audience
+  \item
+    Have everyone sign the sign in sheet when entering
+
+    \begin{itemize}
+    \tightlist
+    \item
+      You do have to make sure they do it\ldots{} sometimes they are shy to ask for the clipboard
+    \end{itemize}
+  \item
+    Remind students of the rules
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Silence your laptops and your cellphones
+    \item
+      You are not allowed to leave in the middle of class (unless it is an emergency)
+    \item
+      No talking or whispering with your fellow classmates during lecture or assignments
+
+      \begin{itemize}
+      \tightlist
+      \item
+        It is distracting to other students
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{recruiter-fall-only}{%
+\subsection{Recruiter (Fall Only)}\label{recruiter-fall-only}}
+
+The recruiter is the person to sends out invitations to students to attend the live recordings.
+
+The Recruiter is the person is the person who:
+
+\begin{itemize}
+\tightlist
+\item
+  Sends out invitations to students to attend the live recordings
+\item
+  Keeps track of who has been emailed
+\item
+  Updates a datasheet each week
+\end{itemize}
+
+\hypertarget{recruitment}{%
+\subsubsection{Recruitment}\label{recruitment}}
+
+Recruitment has some level of variability across semesters, as students (and their levels of conscientiousness\ldots) seem to vary. In past semesters, sending \textasciitilde50 emails was enough to fill 25 spots, while more recently it has taken 100+ emails and the studio may still not completely fill. In addition, some students RSVP but then do not show up.
+
+To better understand these patterns, RAZ will analyze recruitment data (e.g., how many emails were sent, how many students RSVP'd, and how many attended). This ongoing tracking helps us calibrate how wide our email invitations need to go.
+
+We make sure to invite every student at least once during the semester so everyone has the opportunity to see a live class. With our current large invite waves (\textasciitilde50--100+ students), most students will receive multiple invitations over the course of the semester.
+
+\textbf{TA responsibilities for recruitment emails:}\\
+- Send out invitations from the \textbf{PSY301 Team} email account.\\
+- Select students to invite from the \textbf{class roster} (which will be shared with you and contains student email addresses).\\
+- Keep track of which students have already been invited, so that all students have at least one opportunity to attend a live session.\\
+- Record the details of each recruitment wave in the \href{https://docs.google.com/spreadsheets/d/1c99r7PZXdpGsK9qJI7nqpL0r9CE9qULdytwzmRFdW9o/edit?usp=sharing}{\textbf{Studio Recruitment Log Sheet}}, including the \textbf{email date} and \textbf{number of emails sent}. This ensures we can track the full recruitment process alongside RSVP counts and attendance.
+
+\hypertarget{rsvp-logistics}{%
+\subsubsection{RSVP Logistics}\label{rsvp-logistics}}
+
+As of Fall 2025, we use Qualtrics to manage studio RSVPs. Each week, the RSVP form caps automatically at 25 students. Once that number is reached, students who click the link will see a message that the session is already full. Those in the first 25 see a confirmation message.
+
+\textbf{Week 1 special case:}\\
+Because we hold two sessions (Tuesday and Thursday) the first week, we use two separate RSVP links:\\
+- \href{https://utexas.qualtrics.com/jfe/form/SV_1RDMx9U8zFq3oFg?SessionDate=first_tuesday}{First Tuesday link}: caps at 25 for the first Tuesday session.\\
+- \href{https://utexas.qualtrics.com/jfe/form/SV_1RDMx9U8zFq3oFg?SessionDate=first_thursday}{First Thursday link}: caps at 25 for the first Thursday session.
+
+\textbf{Regular schedule (starting second Thursday):}\\
+After Week 1, we use a single RSVP link each week:\\
+- \href{https://utexas.qualtrics.com/jfe/form/SV_1RDMx9U8zFq3oFg}{Studio RSVP Qualtrics Form}
+
+This link automatically resets to allow 25 new sign-ups every Friday at 12:00 am, covering the next Thursday's studio class. The quota resets itself.
+
+\textbf{You should send out your batch of emails on FRIDAYS to recruit for the following week.}
+
+\hypertarget{data}{%
+\subsubsection{Data}\label{data}}
+
+We track each week's studio recruitment in the \href{https://docs.google.com/spreadsheets/d/1c99r7PZXdpGsK9qJI7nqpL0r9CE9qULdytwzmRFdW9o/edit?usp=sharing}{Studio Recruitment Log Sheet}. The TA responsible for sending the recruitment emails should record the \textbf{date emails were sent} and the \textbf{number of emails sent}. At the live recording, the in-studio TA (the ``Hype Master'') should fill in the \textbf{attendance count} and the \textbf{recording date} (the Thursday of that session). The \textbf{RSVP count} will be logged by RAZ.
+
+\hypertarget{standby-option}{%
+\paragraph{Standby Option}\label{standby-option}}
+
+We offer a ``Standby'' option to students who want to come, but who were not invited for that particular day. This is only an option if there are seats available. The students who have been invited for that week and responded get priority. Once those are in, we know how many spaces we have left, and we allow in those who have come as standby students. We inform students about the stand-by option when they come into the studio. It is very rare that we have to turn away students due to lack of space. But all this needs to be done early enough so that any students turned away will have time to find another place to watch the class.
+
+\hypertarget{example-email-to-invite-students}{%
+\subsubsection{Example Email to Invite Students}\label{example-email-to-invite-students}}
+
+\textbf{To}: yourself\\
+\textbf{BCC}: all students invited
+
+\textbf{Subject}: PSY 301: Your chance to be part of the magic!
+
+\textbf{Greetings from the PSY 301 team!}
+
+As you may know, Sam and Paige record lectures \textbf{LIVE} every Thursday from right here on the UT campus. Unfortunately, the studio can hold only about 25 students, so we can only invite a few students for each lecture. But good news, this is YOUR chance to come to the studio, attend a live broadcast, and be part of the magic yourself. We have a slot for you on \textbf{{[}DATE{]}}.
+
+You'll get to sit in our professional TV studio in the \textbf{Mezes Building (MEZ)} and have an in-person learning experience as you watch Sam and Paige give that day's lecture. Students in the studio audience play a very important role - they bring energy, support, and enthusiasm that help Paige and Sam perform their best. And sometimes they even get to take part in the class demonstrations!
+
+To make sure we save a seat for you, please complete the \href{\%60r\%20\%60params$studio_recruitment_qualtrics_form\%60}{Studio RSVP Qualtrics Form} so that we know to expect you. Only sign up if you really can come, because if you can't come we'd like to offer that seat to another student. If you can't make it this time, don't worry as we're hoping to be able to invite you in the future, too.
+
+\textbf{Arrival Details}:\\
+- Arrive no later than \textbf{3:15 PM} on the date above.\\
+- The studio classroom is in \textbf{Mezes (MEZ), room 2.206}.\\
+- \textbf{Directions}:\\
+- Enter the building from the West Main entrance right off the quad.\\
+- Go up a short flight of stairs.\\
+- Follow signs for the Liberal Arts Development Studio to the end of the corridor.\\
+- Wait in line outside the door until a TA comes to get you.
+
+Please don't respond to this email (unless you have questions) --- just fill out the form above if you're interested. We look forward to seeing you there!
+
+\textbf{Best,}\\
+PSY 301 Team
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{dashboard-runner}{%
+\subsection{Dashboard Runner}\label{dashboard-runner}}
+
+The Dashboard, or just ``Dash'', is the vital system we use to launch the various activities in the course. It's the behind-the-scenes setup of all of the moving parts of a lecture class. The dashboard is set up by the course coordinator before each class and then each aspect of the dashboard is deployed at the appropriate time so that students can follow each link (such as a chat or benchmark) away from the lecture stream. The person running the dashboard makes each component visible to the students during live lecture at the appropriate time. Running the dashboard also involves opening ``gatekeepers'' at the right time (more on this below). Anyone involved in running the dashboard will receive extensive training on this process. The Dashboard Runner is the person who is working ``live'' to deploy all necessary links and activities. (There may be more than one dashboard runner per semester.)
+
+\hypertarget{dashboard-runner-requirements}{%
+\subsubsection{Dashboard Runner Requirements}\label{dashboard-runner-requirements}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Availability}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fall: Must be available to run the Dashboard on \textbf{Tuesdays at 12:30-1:55pm} or \textbf{3:15-4:55pm}.
+  \item
+    Spring: Must be available to run the Dashboard on \textbf{Tuesday or Thursday from 3:15-4:55pm}.
+  \end{itemize}
+\item
+  \textbf{Experience}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You'll need to have been a uTA for PSY301 for \emph{at least} one semester before serving as a Dashboard Runner.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{the-dash}{%
+\subsubsection{The Dash}\label{the-dash}}
+
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/dashboard_1.png} In the Dash we have rows for each part of lecture. (Note there are some blanks spaces or dates that are meant only as notes for the Dashboard runners and are not displayed to the students.)
+
+\begin{itemize}
+\tightlist
+\item
+  Each row has a \textbf{Red X} that deletes the row.
+\item
+  The \textbf{three lines (hamburger)} allows you to move the rows around.
+\item
+  The \textbf{``Title''} is what the students will see in the Video Stream.
+\item
+  The \textbf{``Link (or blank if none)''} is where the link to the activity goes.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ex. Title = ``Benchmark 04'' and the ``Link (or blank if none)'' = something like the following (please note this is an example link and will not lead you anywhere): ``\url{https://utexas.instructure.com/courses/1407493/modules/items/14366833}''.
+  \item
+    The course coordinator will also write notes here for certain activities that do not have a link if need be. For example, Instapolls are \emph{not} shown in the Dash during class. They are only listed in the Dash as a note for the Dash runner. We ``launch'' the Instapolls from a separate page, more on this below.
+  \end{itemize}
+\item
+  The \textbf{``Preview''} button will take you to the linked URL. This is to check and make sure that the link goes to the correct activity.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You can click this to take you the assignments that have Gatekeepers. (more on this below)
+  \end{itemize}
+\item
+  The \textbf{``Current?''} button is used when we have multiple ``revealed'' activities (which is rare and only applicable for the RACE lecture IAT activity), so we don't really have to use it.
+\item
+  The \textbf{``Visible?''} button is a little eye that you can ``open'' by clicking. This is how you reveal the activity ``Title'' which appears as a button above the live stream.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    When students click the button, it takes them to the ``Link (or blank if none)''.
+  \item
+    Every time an item is presented to the students, (by ``opening'' the eye), the previous eye needs to be ``closed.''\\
+    -For example:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Start with ``See you next time!'' (from previous class)
+    \item
+      Close that eye, then open the ``Class will begin soon!'' eye and (very important!) click ``Save and apply changes''
+    \end{itemize}
+  \end{itemize}
+\item
+  The \textbf{``Save and apply changes''} button is vital and must be clicked every time you change something for it to take effect
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{dashboard-process}{%
+\subsubsection{Dashboard Process}\label{dashboard-process}}
+
+\hypertarget{pre-class-dashboard-to-do-list}{%
+\paragraph{Pre-Class Dashboard To-Do List}\label{pre-class-dashboard-to-do-list}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Watch the Lecture}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The Dash will be set up for you by the course coordinator. However, you do need to watch the lecture before hand to note roughly the time stamps for when to deploy certain activities.
+  \item
+    You can also look through the transcripts and use the Find option to figure out roughly when certain activities will be launched.
+  \end{itemize}
+\item
+  \textbf{Set Up Workspace}:
+
+  \begin{itemize}
+  \item
+    To get to the Dash, navigate to the ``Video Stream'' tab in Canvas (upper left).
+  \item ~
+    \hypertarget{open-up}{%
+    \subsection{Open up:}\label{open-up}}
+
+\begin{verbatim}
+1)  Video Stream (this is the student's view)
+\end{verbatim}
+
+    \begin{itemize}
+    \item
+      \begin{enumerate}
+      \def\labelenumii{\arabic{enumii})}
+      \setcounter{enumii}{1}
+      \tightlist
+      \item
+        Another Video Stream, then navigate to Edit -\textgreater{} Edit Page to get to the Dashboard Editor page\\
+      \end{enumerate}
+    \item
+      \begin{enumerate}
+      \def\labelenumii{\arabic{enumii})}
+      \setcounter{enumii}{2}
+      \tightlist
+      \item
+        Instapolls page (if there are Instapolls for that lecture)\\
+      \end{enumerate}
+    \item
+      \begin{enumerate}
+      \def\labelenumii{\arabic{enumii})}
+      \setcounter{enumii}{3}
+      \tightlist
+      \item
+        Have the Slack channel \#class-time open either on your computer or on your phone (more on this below)
+      \end{enumerate}
+    \end{itemize}
+  \item
+    So you will open the Video Stream twice, once to have a view of what the students are seeing, the live video stream, and another so you can navigate to the Dashboard page (``Edit Page'').
+  \end{itemize}
+\item
+  \textbf{Set Up Instapolls}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Navigate to the Instapolls for a particular class and keep the tab open to launch during class.\\
+  \end{itemize}
+\item
+  \textbf{Update Dashboard Messaging}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Change the dashboard item from ``See you next time!'' to ``Class will begin soon!'' by 3:15 PM on lecture days (and 12:15 on Tuesdays in the Fall).
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{during-class-dashboard-to-do-list}{%
+\paragraph{During-Class Dashboard To-Do List}\label{during-class-dashboard-to-do-list}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Launch Activities}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    First activity is always Benchmark \#. Always update gatekeeper(s) to ``Start Now'' when Sam/Paige say ``It's benchmark time.'' BEFORE making the benchmark available in the dashboard.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Note the gatekeeper timer is set to add \emph{an addition minute} to account for any server delays/timing issues.
+    \end{itemize}
+  \item
+    Change current activity as Sam/Paige transition by clicking the little Eye on the right and then save. (The Eye reveals the items.)
+  \end{itemize}
+\item
+  \textbf{Instapolls}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    For chats: Launch the Instapoll in the chat once Sam/Paige says, ``Wrap up your chat.''\\
+  \item
+    For non-chat polls: Send them when instructed by Sam/Paige.\\
+  \item
+    \textbf{NOTE: Instapolls are written in the Dashboard list, but we DO NOT show this in the Dashboard. These serves as notes for the Dashboard Runner to know when an Instapoll is coming. You launch them from the Instapoll page. See below.}
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{post-class-dashboard-to-do-list}{%
+\paragraph{Post-Class Dashboard To-Do List}\label{post-class-dashboard-to-do-list}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Wrap Up Dashboard}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Change the dashboard message to ``See you next time!'' after RAS (5 minutes).\\
+  \end{itemize}
+\item
+  \textbf{Clean Up Dashboard}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Once class is over, please delete all of that day's activities by clicking the little red X. Save the changes.
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{notes-in-the-dash}{%
+\paragraph{Notes in the Dash}\label{notes-in-the-dash}}
+
+Most of the objects in the Dashboard are meant to be displayed to the students. However, to make it more organized and annotated, the Dash also has other notes in there. For example, every lecture, date, and lecture number are included as are Instapolls with a note on what the poll is asking. There are two examples of something that are NOT meant to be displayed to students. They are purely to help the Dashboard Runner. ;)
+
+\hypertarget{navigating-to-the-dashboard}{%
+\paragraph{Navigating to the Dashboard}\label{navigating-to-the-dashboard}}
+
+\textbf{To get to the Dashboard, Click Edit -\textgreater{} Edit Page}
+
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/dashboard_2.png}
+
+\hypertarget{desktop-view-when-running-the-dash}{%
+\paragraph{Desktop View when Running the Dash}\label{desktop-view-when-running-the-dash}}
+
+Here is example of you desktop view when running the Dash with the Student View (Video Stream), Dashboard Editor Page, and the Instapolls page. (Another computer monitor would be a great way to organize all these windows\ldots)
+
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/dashboard_3.png}
+
+\hypertarget{gatekeeping}{%
+\subsubsection{Gatekeeping}\label{gatekeeping}}
+
+We use something called Gatekeeping to make sure students don't have access to certain materials beforehand. Gatekeepers are set by the course coordinator in advance. The Dashboard Runner opens (releases the gatekeeper for) the assignments.
+
+\hypertarget{opening-gatekeepers}{%
+\paragraph{Opening Gatekeepers}\label{opening-gatekeepers}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  From the Dashboard, copy paste the URL for the Benchmarks and RASs into your browser or click the ``Preview'' button. This will take you to the particular assignment.\\
+\item
+  In the upper left, click the drop down ``Edit''.
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/gatekeeping_1.png}
+\caption{Navigate to Dashboard: Video Stream (Canvas) -\textgreater{} Edit -\textgreater{} Edit Activity Configuration}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  Click on ``Edit Activity Configuration''.
+\item
+  When it is time to launch the assignment, click the (teeny tiny) ``Start Now'' check box and click ``Save.'' (Sometimes this takes a few seconds\ldots{} We add an extra minute to the time we give the students to account for this.) This is also why you first make sure to release the gatekeeper THEN reveal the activity in the Dash-- clicking the little Eye and hitting ``Save''. It takes some getting used to, but you will learn how much earlier you need to release the gatekeeper so that it saves and is ready to be revealed to the student right after Sam or Paige say ``It's benchmark time!''
+\end{enumerate}
+
+\begin{figure}
+\centering
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/gatekeeping_2.png}
+\caption{Release Assignment with ``Start Now''}
+\end{figure}
+
+\hypertarget{gatekept-assignments}{%
+\paragraph{Gatekept Assignments}\label{gatekept-assignments}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Benchmarks}
+\item
+  \textbf{RASs}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{instapolls}{%
+\subsubsection{Instapolls}\label{instapolls}}
+
+Instapolls are one of the class activities that require launching from the Instapoll page when Sam and Paige say something like ``You should be seeing an Instapoll now.'' To launch the polls, navigate to the Video Stream from Canvas. Once in the Video Stream go to Edit -\textgreater{} Edit Instapoll.
+
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/instapoll_1.png} You will see all the Instapolls for the semester here. They are organized with the first Instapolls at the end and the last Instapolls at the top. (I do not know why\ldots) You'll navigate to the Instapolls launching that day. You can check this by reviewing the Dashboard page. The course coordinator will leave notes about which Instapolls are being launched. Once Sam and Paige mention the Instapoll, hit ``Send Now''. And that's it! If there are more Instapolls to launch for that class, leave the page open, otherwise you can close it.
+
+\begin{figure}
+\centering
+\includegraphics{/Users/RAZ/Desktop/PSY301/uTAs/uTA_handbook/_images/instapoll_2.png}
+\caption{Launching Instapolls}
+\end{figure}
+
+\hypertarget{slack-support}{%
+\subsubsection{Slack Support}\label{slack-support}}
+
+And lastly, since this is such a big class and we need it to run smoothly, we have our own dedicated LAITS studio person to help us! Anytime you run the dashboard, you will not be alone! You will be on Slack in the \#class-time channel (This one is locked to only those who need access.) with one of our LAITS super project managers who will be testing everything as you launch and will help with any troubleshooting. ;)
+
+\hypertarget{course-materials}{%
+\section{Course Materials}\label{course-materials}}
+
+Linked below are all the reading materials for benchmark question writings.
+
+\hypertarget{lecture-recordings}{%
+\subsection{Lecture Recordings}\label{lecture-recordings}}
+
+\href{https://utexas.instructure.com/courses/1425333/modules}{Lecture Recordings}
+
+\hypertarget{lecture-transcripts}{%
+\subsection{Lecture Transcripts}\label{lecture-transcripts}}
+
+\href{https://utexas.app.box.com/s/gv30palwx7zhqfk43vgvy8450ci0qz66/folder/333986317433}{Lecture Transcripts}
+
+\hypertarget{noba-readings}{%
+\subsection{Noba Readings}\label{noba-readings}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{http://nobaproject.com/modules/why-science}{Why Science}
+\item
+  \href{http://nobaproject.com/modules/history-of-psychology}{History of Psychology}
+\item
+  \href{http://nobaproject.com/modules/research-designs}{Research Designs}
+\item
+  \href{http://nobaproject.com/modules/conducting-psychology-research-in-the-real-world}{Conducting Psychology Research in the Real World}
+\item
+  \href{http://nobaproject.com/modules/biochemistry-of-love}{Biochemistry of Love}
+\item
+  \href{http://nobaproject.com/modules/neurons}{Neurons}
+\item
+  \href{http://nobaproject.com/modules/the-brain-and-nervous-system}{The Brain and Nervous System}
+\item
+  \href{http://nobaproject.com/modules/hormones-behavior}{Hormones \& Behavior}
+\item
+  \href{http://nobaproject.com/modules/time-and-culture}{Time and Culture}
+\item
+  \href{http://nobaproject.com/modules/sensation-and-perception}{Sensation and Perception}
+\item
+  \href{http://nobaproject.com/modules/statistical-thinking}{Statistical Thinking}
+\item
+  \href{http://nobaproject.com/modules/conditioning-and-learning}{Conditioning and Learning}
+\item
+  \href{http://nobaproject.com/modules/judgment-and-decision-making}{OPTIONAL: Judgment and Decision Making}
+\item
+  \href{http://nobaproject.com/modules/memory-encoding-storage-retrieval}{Memory (Encoding, Storage, Retrieval)}
+\item
+  \href{http://nobaproject.com/modules/intelligence}{Intelligence}
+\item
+  \href{http://nobaproject.com/modules/attention}{Attention}
+\item
+  \href{http://nobaproject.com/modules/failures-of-awareness-the-case-of-inattentional-blindness}{Failures of Awareness: The Case of Inattentional Blindness}
+\item
+  \href{http://nobaproject.com/modules/gender}{Gender}
+\item
+  \href{http://nobaproject.com/modules/attachment-through-the-life-course}{Attachment Through the Life Course}
+\item
+  \href{http://nobaproject.com/modules/cognitive-development-in-childhood}{Cognitive Development in Childhood}
+\item
+  \href{http://nobaproject.com/modules/evolutionary-theories-in-psychology}{Evolutionary Theories in Psychology}
+\item
+  \href{http://nobaproject.com/modules/the-nature-nurture-question}{The Nature-Nurture Question}
+\item
+  \href{http://nobaproject.com/modules/adolescent-development}{Adolescent Development}
+\item
+  \href{http://nobaproject.com/modules/emerging-adulthood}{Emerging Adulthood}
+\item
+  \href{http://nobaproject.com/modules/personality-traits}{Personality Traits}
+\item
+  \href{http://nobaproject.com/modules/personality-assessment}{Personality Assessment}
+\item
+  \href{http://nobaproject.com/modules/self-and-identity}{Self and Identity}
+\item
+  \href{http://nobaproject.com/modules/culture-and-emotion}{Culture and Emotion}
+\item
+  \href{http://nobaproject.com/modules/emotion-experience-and-well-being}{Emotion Experience and Well-Being}
+\item
+  \href{http://nobaproject.com/modules/prejudice-discrimination-and-stereotyping}{Prejudice, Discrimination, and Stereotyping}
+\item
+  \href{https://nobaproject.com/modules/psychology-of-racism}{Psychology of racism}
+\item
+  \href{http://nobaproject.com/modules/mood-disorders}{Mood Disorders}
+\item
+  \href{http://nobaproject.com/modules/anxiety-and-related-disorders}{Anxiety and Related Disorders}
+\item
+  \href{http://nobaproject.com/modules/therapeutic-orientations}{Therapeutic Orientations}
+\item
+  \href{http://nobaproject.com/modules/the-psychodynamic-perspective}{The Psychodynamic Perspective}
+\item
+  \href{http://nobaproject.com/modules/states-of-consciousness}{States of Consciousness}
+\item
+  \href{http://nobaproject.com/modules/aggression-and-violence}{Aggression and Violence}
+\item
+  \href{http://nobaproject.com/modules/psychopathy}{Psychopathy}
+\item
+  \href{http://nobaproject.com/modules/helping-and-prosocial-behavior}{Helping and Prosocial Behavior}
+\item
+  \href{http://nobaproject.com/modules/persuasion-so-easily-fooled}{Persuasion: So Easily Fooled}
+\item
+  \href{http://nobaproject.com/modules/the-psychology-of-groups}{The Psychology of Groups}
+\end{itemize}
+
+\end{document}
